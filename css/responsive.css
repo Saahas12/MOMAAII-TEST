@@ -2,7 +2,7 @@
     body{
         width: min-content;
         height: auto;
-        overflow-x: hidden;
+        overflow-x: auto;
     }
 /* -----------------top-navbar--------------------- */
 
@@ -38,7 +38,7 @@
         font-weight: 500;
         transition: all 0.2s;
         font-family: "Inter", sans-serif;
-        font-size: 3rem;
+        font-size: 2rem;
         font-weight: 400;
     }
 
@@ -61,11 +61,11 @@
 
     .navbar .cta {
         width: 50%;
-        padding: 2rem;
+        padding: 1rem;
         background-color: #163234;
         color: white;
         border-radius: 1rem;
-        font-size: 2rem;
+        font-size: 1rem;
         text-align: center;
     }
     
@@ -588,6 +588,650 @@
 
 
 /*-------------------CartPageSection---------------------------*/
+.productsSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-items: start;
+}
+
+.prod1-img{
+    width: 208px;
+    height: 178px;
+}
+
+
+.prod1-img img{
+    width: 208px;
+    height: 178px;
+}
+
+.prod2-img{
+    width: 208px;
+    height: 178px;
+}
+
+.prod2-img img{
+    width: 208px;
+    height: 178px;
+}
+
+.prod3-img{
+    width: 208px;
+    height: 178px;
+}
+
+.prod3-img img{
+    width: 208px;
+    height: 178px;
+}
+
+.prod-title h3{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    color: #C67A2F;
+    font-weight: 400;
+    padding-top: 45%;
+}
+
+.prod2-title h3{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    color: #C67A2F;
+    font-weight: 400;
+    padding-top: 45%;
+}
+
+.prod3-title h3{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    color: #C67A2F;
+    font-weight: 400;
+    padding-top: 45%;
+}
+
+
+.prod-color,.prod2-color,.prod3-color{
+    display: flex;
+    padding-top: 83%;
+    padding-left: 1rem;
+}
+
+.grayCircle{
+    width: 15px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #DEDEDE;
+}
+
+.SizeRing{
+    display: flex;
+    padding-top: 83%;
+    padding-left: 1rem;
+}
+
+
+.SizeRing .size-Ring span{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+}
+
+.qtyCategory{
+    display: flex;
+    padding-top: 42%;
+    padding-left: 0.5rem;
+}
+
+.qtyCategory .minus-left{
+    padding-top: 1rem;
+    padding-right: 1rem;
+}
+
+.qtyCategory .minus-left img{
+    width: 16px;
+    height: 17px;
+}
+
+.qtyCategory .plus-right img{
+    width: 16px;
+    height: 17px;
+}
+
+.qtyCategory .plus-right{
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.totalCategory{
+    display: flex;
+    padding-top: 35%;
+    padding-left: 1rem;
+}
+
+.RingSize .size-Ring h3{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000;
+}
+
+.qtyCategory h3{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000;
+}
+
+
+.totalCategory h3{
+    font-family: "Inter",sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #000;
+}
+
+
+.CartTotal{
+    width: 549px;
+    height: 330px;
+    border: 1px solid #C67A2F;
+    margin-top: 27px;
+    justify-content: end;
+}
+
+
+.subtotal-1{
+    display: flex;
+    column-gap: 15.5rem;
+    margin-left: 40px;
+}
+
+.delievery-free-1{
+    display: flex;
+    column-gap: 18.5rem;
+    margin-left: 40px;
+}
+
+.total-1{
+    display: flex;
+    column-gap: 15.5rem;
+    margin-left: 40px;
+}
+
+.CartTotal .subtotal-1 h3{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #163234;
+}
+
+.CartTotal .subtotal-1 p{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    color: #163234;
+}
+
+.CartTotal .delievery-free-1 h3{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #163234;
+}
+
+.CartTotal .delievery-free-1 p{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #163234;
+}
+
+.CartTotal .total-1 h3{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #163234;
+}
+
+.CartTotal .total-1 p{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #163234;
+}
+
+.continue-btn button{
+    width: 458px;
+    height: 48px;
+    padding: 5px;
+    background: #163234;
+    color: white;
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    margin-top: 37px;
+    margin-left: 38px;
+}
+
+.continue-btn button:hover{
+    background-color: #31676b;
+    color: white;
+    cursor: pointer;
+}
+
+
+/*-------------------CartPageSection---------------------------*/
+/*-------------------AddressPageSection---------------------------*/
+.order-summary-txt h5{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 2rem;
+}
+
+.cart-items-display{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 4rem;
+}
+
+
+.cart-img-1{
+    width: 208px;
+    height: 178px;
+    border: 1px solid #FFD6C0;
+    margin-left: 1rem;
+}
+
+.cart-img-1 img{
+    width: 208px;
+    height: 178px;
+}
+
+.cart-item-quantity-desc{
+    display: flex;
+}
+
+.cart-item-right-desc {
+    margin-left: 1rem;
+}
+
+.cart-item-quantity-desc .cart-item-right-desc .item-title{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    color: #C67A2F;
+}
+
+.cart-item-quantity-desc .cart-item-right-desc .qty,.price{
+    font-family: "Inter",sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+
+
+.addressForm{
+    width: 549px;
+    height: 715px;
+    border: 1px solid #C67A2F;
+}
+
+.addressForm .nameLabel{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    margin-top: 55px;
+    margin-left: 38px;
+}
+
+::placeholder{
+    font-family: "Inter",sans-serif;
+    font-size: 12px;
+    color: #666666;
+    padding: 5px;
+}
+
+
+.addressForm .emailLabel{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-left: 38px;
+}
+
+.addressForm .phoneLabel{
+    font-family: "Inter",sans-serif;
+    margin-top: 10px;
+    margin-left: 38px;
+}
+
+.addressForm .address-1Label,.address-2Label,.address-3Label{
+    font-family: "Inter",sans-serif;
+    margin-top: 10px;
+    margin-left: 38px;
+}
+
+.addressForm input{
+    margin-top: 6px;
+    margin-left: 40px;
+    padding: 2px;
+    width: 458px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: #FFD6C0;
+    border: 1px solid #FFD6C0;
+}
+
+.pincode{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.pincode .pincodeLabel{
+    font-family: "Inter",sans-serif;
+    margin-top: 10px;
+    margin-left: 38px;
+}
+
+.pincode .pincodeLabel .pin{
+    margin-top: 7px;
+    margin-left: 0;
+}
+
+.pincode .cityLabel{
+    font-family: "Inter",sans-serif;
+    margin-top: 10px;
+    margin-left: 38px;
+}
+
+.pincode .cityLabel .city{
+    margin-top: 7px;
+    margin-left: 0;
+}
+
+
+.pincode input{
+    padding: 2px;
+    width: 185px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: #FFD6C0;
+    border: 1px solid #FFD6C0;
+}
+
+.delievery-btn button{
+    width: 458px;
+    height: 48px;
+    padding: 5px;
+    background: #163234;
+    color: white;
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    margin-top: 37px;
+    margin-left: 38px;
+}
+
+.delievery-btn button:hover{
+    background-color: #31676b;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+/*-------------------AddressPageSection---------------------------*/
+
+/*------------------AddressPageFinalCss------------------------------*/
+
+.subTotalsec{
+    width: auto;
+    height: 330px;
+    border: 1px solid #C67A2F;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subtotal{
+    display: flex;
+    column-gap: 15rem;
+    margin-left: 40px;
+}
+
+.delievery-free{
+    display: flex;
+    column-gap: 18.5rem;
+    margin-left: 40px;
+}
+
+.total{
+    display: flex;
+    column-gap: 16rem;
+    margin-left: 40px;
+}
+
+.subTotalsec .subtotal:nth-child(1){
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #163234;
+}
+
+.subTotalsec .subtotal:nth-child(2){
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    color: #163234;
+}
+
+.subTotalsec .delievery-free:nth-child(2){
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #163234;
+    padding-right: 10px;
+}
+
+.subTotalsec .total .tot-h3{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #163234;
+}
+
+.subTotalsec .total .tot-p{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #163234;
+}
+
+.continue-btn button{
+    width: 399px;
+    height: 48px;
+    padding: 5px;
+    background: #163234;
+    color: white;
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    margin-top: 37px;
+    margin-left: 38px;
+}
+
+.continue-btn button:hover{
+    background-color: #31676b;
+    color: white;
+    cursor: pointer;
+}
+
+
+.addressDisplaySec{
+    width: auto;
+    height: 513px;
+    border: 1px solid #C67A2F;
+    margin-left: 0;
+}
+
+.addressDisplaySec p{
+    margin-top: 39px;
+    margin-left: 40px;
+}
+
+.update-btn button:hover{
+    background-color: #31676b;
+    color: white;
+    cursor: pointer;
+}
+
+
+.update-btn button{
+    width: 399px;
+    height: 48px;
+    padding: 5px;
+    background: #163234;
+    color: white;
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    margin-top: 37px;
+    margin-left: 38px;
+}
+/*------------------AddressPageFinalCss------------------------------*/
+/*------------------PaymentPageCss------------------------------*/
+
+
+.payment-details-txt h5{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+
+
+.paypal-btn{
+    width: 403px;
+    height: 48px;
+    padding: 5px;
+    background: #FFCC00;
+    color: white;
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    margin-top: 37px;
+    margin-left: 30px;
+}
+
+.paypal-btn:hover{
+    cursor: pointer;
+}
+
+.debit-card-btn{
+    width: 403px;
+    height: 48px;
+    padding: 5px;
+    background: #2E2E2D;
+    color: white;
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 30px;
+}
+
+.debit-card-btn:hover{
+    cursor: pointer;
+    background: #000;
+}
+
+.paypal-btn img{
+    width: 72px;
+    height: 40px;
+}
+
+/*------------------PaymentPageCss------------------------------*/
+
+
+/*------------------OrderConfirmPageCss------------------------------*/
+.ConifrmedDetails{
+    margin-left: 0;
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: 1fr;
+    row-gap: 2rem;
+}
+
+.update-btn button:hover{
+    background-color: #31676b;
+    color: white;
+    cursor: pointer;
+}
+
+
+.update-btn button{
+    width: 399px;
+    height: 48px;
+    /* padding: 5px; */
+    background: #163234;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    margin-left: 2rem;
+}
+
+.orderConfirm-details-txt h5{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.orderConfirmed-txt h5{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.arrivingDate p{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.order-Confirmed-icon{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.order-Confirmed-icon img{
+    width: 100px;
+    height: 100px;
+}
+/*------------------OrderConfirmPageCss------------------------------*/
+
+
+
+
 
 
 /* -----------------footer-section----------------- */
@@ -1286,6 +1930,662 @@
 /* -----------------singleProductPage-section----------------- */
 
 
+/*------------------CartPageCss---------------------------------*/
+.productsSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 0fr;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.prod1-img{
+    width: 208px;
+    height: 178px;
+}
+
+
+.prod1-img img{
+    width: 189px;
+    height: 178px;
+}
+
+.prod2-img{
+    width: 208px;
+    height: 178px;
+}
+
+.prod2-img img{
+    width: 189px;
+    height: 178px;
+}
+
+.prod3-img{
+    width: 208px;
+    height: 178px;
+}
+
+.prod3-img img{
+    width: 189px;
+    height: 178px;
+}
+
+.prod-title h3{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    color: #C67A2F;
+    font-weight: 400;
+    padding-top: 45%;
+}
+
+.prod2-title h3{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    color: #C67A2F;
+    font-weight: 400;
+    padding-top: 45%;
+}
+
+.prod3-title h3{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    color: #C67A2F;
+    font-weight: 400;
+    padding-top: 45%;
+}
+
+
+.prod-color,.prod2-color,.prod3-color{
+    display: flex;
+    padding-top: 55%;
+    padding-left: 1rem;
+}
+
+.grayCircle{
+    width: 15px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #DEDEDE;
+}
+
+.SizeRing{
+    display: flex;
+    padding-top: 52%;
+    padding-left: 1rem;
+}
+
+
+.SizeRing .size-Ring span{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+}
+
+.qtyCategory{
+    display: flex;
+    padding-top: 38%;
+    padding-left: 0.5rem;
+}
+
+.qtyCategory .minus-left{
+    padding-top: 1rem;
+    padding-right: 1rem;
+}
+
+.qtyCategory .minus-left img{
+    width: 16px;
+    height: 17px;
+}
+
+.qtyCategory .plus-right img{
+    width: 16px;
+    height: 17px;
+}
+
+.qtyCategory .plus-right{
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.totalCategory{
+    display: flex;
+    padding-top: 49%;
+    padding-left: 1rem;
+}
+
+.RingSize .size-Ring h3{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000;
+}
+
+.qtyCategory h3{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000;
+}
+
+
+.totalCategory h3{
+    font-family: "Inter",sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #000;
+}
+
+
+.CartTotal{
+    width: 549px;
+    height: 330px;
+    border: 1px solid #C67A2F;
+    margin-top: 27px;
+    margin-left: 1rem;
+}
+
+
+.subtotal-1{
+    display: flex;
+    column-gap: 15.5rem;
+    margin-left: 40px;
+}
+
+.delievery-free-1{
+    display: flex;
+    column-gap: 18.5rem;
+    margin-left: 40px;
+}
+
+.total-1{
+    display: flex;
+    column-gap: 15.5rem;
+    margin-left: 40px;
+}
+
+.CartTotal .subtotal-1 h3{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #163234;
+}
+
+.CartTotal .subtotal-1 p{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    color: #163234;
+}
+
+.CartTotal .delievery-free-1 h3{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #163234;
+}
+
+.CartTotal .delievery-free-1 p{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #163234;
+}
+
+.CartTotal .total-1 h3{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #163234;
+}
+
+.CartTotal .total-1 p{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #163234;
+}
+
+.continue-btn button{
+    width: 458px;
+    height: 48px;
+    padding: 5px;
+    background: #163234;
+    color: white;
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    margin-top: 37px;
+    margin-left: 38px;
+}
+
+.continue-btn button:hover{
+    background-color: #31676b;
+    color: white;
+    cursor: pointer;
+}
+/*------------------CartPageCss---------------------------------*/
+
+
+/*------------------AddressPageCss------------------------------*/
+
+.order-summary-txt h5{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 2rem;
+}
+
+.cart-items-display{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 4rem;
+}
+
+
+.cart-img-1{
+    width: 208px;
+    height: 178px;
+    border: 1px solid #FFD6C0;
+    margin-left: 1rem;
+}
+
+.cart-img-1 img{
+    width: 208px;
+    height: 178px;
+}
+
+.cart-item-quantity-desc{
+    display: flex;
+}
+
+.cart-item-right-desc {
+    margin-left: 1rem;
+}
+
+.cart-item-quantity-desc .cart-item-right-desc .item-title{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    color: #C67A2F;
+}
+
+.cart-item-quantity-desc .cart-item-right-desc .qty,.price{
+    font-family: "Inter",sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+
+
+.addressForm{
+    width: 549px;
+    height: 715px;
+    border: 1px solid #C67A2F;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.addressForm .nameLabel{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    margin-top: 55px;
+    margin-left: 38px;
+}
+
+::placeholder{
+    font-family: "Inter",sans-serif;
+    font-size: 12px;
+    color: #666666;
+    padding: 5px;
+}
+
+
+.addressForm .emailLabel{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-left: 38px;
+}
+
+.addressForm .phoneLabel{
+    font-family: "Inter",sans-serif;
+    margin-top: 10px;
+    margin-left: 38px;
+}
+
+.addressForm .address-1Label,.address-2Label,.address-3Label{
+    font-family: "Inter",sans-serif;
+    margin-top: 10px;
+    margin-left: 38px;
+}
+
+.addressForm input{
+    margin-top: 6px;
+    margin-left: 40px;
+    padding: 2px;
+    width: 458px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: #FFD6C0;
+    border: 1px solid #FFD6C0;
+}
+
+.pincode{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.pincode .pincodeLabel{
+    font-family: "Inter",sans-serif;
+    margin-top: 10px;
+    margin-left: 38px;
+}
+
+.pincode .pincodeLabel .pin{
+    margin-top: 7px;
+    margin-left: 0;
+}
+
+.pincode .cityLabel{
+    font-family: "Inter",sans-serif;
+    margin-top: 10px;
+    margin-left: 38px;
+}
+
+.pincode .cityLabel .city{
+    margin-top: 7px;
+    margin-left: 0;
+}
+
+
+.pincode input{
+    padding: 2px;
+    width: 185px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: #FFD6C0;
+    border: 1px solid #FFD6C0;
+}
+
+.delievery-btn button{
+    width: 458px;
+    height: 48px;
+    padding: 5px;
+    background: #163234;
+    color: white;
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    margin-top: 37px;
+    margin-left: 38px;
+}
+
+.delievery-btn button:hover{
+    background-color: #31676b;
+    color: white;
+    cursor: pointer;
+}
+
+/*------------------AddressPageCss------------------------------*/
+
+
+/*------------------AddressPageFinalCss------------------------------*/
+
+.subTotalsec{
+    width: auto;
+    height: 330px;
+    border: 1px solid #C67A2F;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subtotal{
+    display: flex;
+    column-gap: 15rem;
+    margin-left: 40px;
+}
+
+.delievery-free{
+    display: flex;
+    column-gap: 18.5rem;
+    margin-left: 40px;
+}
+
+.total{
+    display: flex;
+    column-gap: 16rem;
+    margin-left: 40px;
+}
+
+.subTotalsec .subtotal:nth-child(1){
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #163234;
+}
+
+.subTotalsec .subtotal:nth-child(2){
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    color: #163234;
+}
+
+.subTotalsec .delievery-free:nth-child(2){
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #163234;
+    padding-right: 10px;
+}
+
+.subTotalsec .total .tot-h3{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #163234;
+}
+
+.subTotalsec .total .tot-p{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #163234;
+}
+
+.continue-btn button{
+    width: 399px;
+    height: 48px;
+    padding: 5px;
+    background: #163234;
+    color: white;
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    margin-top: 37px;
+    margin-left: 10%;
+}
+
+.continue-btn button:hover{
+    background-color: #31676b;
+    color: white;
+    cursor: pointer;
+}
+
+
+.addressDisplaySec{
+    width: 619px;
+    height: 513px;
+    border: 1px solid #C67A2F;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.addressDisplaySec p{
+    margin-top: 39px;
+    margin-left: 40px;
+}
+
+.update-btn button:hover{
+    background-color: #31676b;
+    color: white;
+    cursor: pointer;
+}
+
+
+.update-btn button{
+    width: 458px;
+    height: 48px;
+    padding: 5px;
+    background: #163234;
+    color: white;
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    margin-top: 37px;
+    margin-left: 13%;
+}
+/*------------------AddressPageFinalCss------------------------------*/
+
+/*------------------PaymentPageCss------------------------------*/
+
+
+.payment-details-txt h5{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+
+
+.paypal-btn{
+    width: 403px;
+    height: 48px;
+    padding: 5px;
+    background: #FFCC00;
+    color: white;
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    margin-top: 37px;
+    margin-left: 40px;
+}
+
+.paypal-btn:hover{
+    cursor: pointer;
+}
+
+.debit-card-btn{
+    width: 403px;
+    height: 48px;
+    padding: 5px;
+    background: #2E2E2D;
+    color: white;
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 40px;
+}
+
+.debit-card-btn:hover{
+    cursor: pointer;
+    background: #000;
+}
+
+.paypal-btn img{
+    width: 72px;
+    height: 40px;
+}
+
+/*------------------PaymentPageCss------------------------------*/
+
+
+/*------------------OrderConfirmPageCss------------------------------*/
+.ConifrmedDetails{
+    margin-left: 0;
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: 1fr;
+    row-gap: 2rem;
+}
+
+.update-btn button:hover{
+    background-color: #31676b;
+    color: white;
+    cursor: pointer;
+}
+
+
+.update-btn button{
+    width: 399px;
+    height: 48px;
+    /* padding: 5px; */
+    background: #163234;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    margin-left: 2rem;
+}
+
+.orderConfirm-details-txt h5{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.orderConfirmed-txt h5{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.arrivingDate p{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.order-Confirmed-icon{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.order-Confirmed-icon img{
+    width: 100px;
+    height: 100px;
+}
+
+.cart-img-1-order {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*------------------OrderConfirmPageCss------------------------------*/
+
+
+
+
+
 /* -----------------footer-section----------------- */
 .footer{
     width: auto;
@@ -1982,6 +3282,605 @@
 }
 
 /* -----------------singleProductPage-section----------------- */
+
+/*------------------CartPageCss---------------------------------*/
+.productsSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 0fr;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.prod1-img{
+    width: 208px;
+    height: 178px;
+}
+
+
+.prod1-img img{
+    width: 189px;
+    height: 178px;
+}
+
+.prod2-img{
+    width: 208px;
+    height: 178px;
+}
+
+.prod2-img img{
+    width: 189px;
+    height: 178px;
+}
+
+.prod3-img{
+    width: 208px;
+    height: 178px;
+}
+
+.prod3-img img{
+    width: 189px;
+    height: 178px;
+}
+
+.prod-title h3{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    color: #C67A2F;
+    font-weight: 400;
+    padding-top: 45%;
+}
+
+.prod2-title h3{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    color: #C67A2F;
+    font-weight: 400;
+    padding-top: 45%;
+}
+
+.prod3-title h3{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    color: #C67A2F;
+    font-weight: 400;
+    padding-top: 45%;
+}
+
+
+.prod-color,.prod2-color,.prod3-color{
+    display: flex;
+    padding-top: 55%;
+    padding-left: 1rem;
+}
+
+.grayCircle{
+    width: 15px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #DEDEDE;
+}
+
+.SizeRing{
+    display: flex;
+    padding-top: 52%;
+    padding-left: 1rem;
+}
+
+
+.SizeRing .size-Ring span{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+}
+
+.qtyCategory{
+    display: flex;
+    padding-top: 38%;
+    padding-left: 0.5rem;
+}
+
+.qtyCategory .minus-left{
+    padding-top: 1rem;
+    padding-right: 1rem;
+}
+
+.qtyCategory .minus-left img{
+    width: 16px;
+    height: 17px;
+}
+
+.qtyCategory .plus-right img{
+    width: 16px;
+    height: 17px;
+}
+
+.qtyCategory .plus-right{
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.totalCategory{
+    display: flex;
+    padding-top: 49%;
+    padding-left: 1rem;
+}
+
+.RingSize .size-Ring h3{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000;
+}
+
+.qtyCategory h3{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000;
+}
+
+
+.totalCategory h3{
+    font-family: "Inter",sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #000;
+}
+
+
+.CartTotal{
+    width: 549px;
+    height: 330px;
+    border: 1px solid #C67A2F;
+    margin-top: 27px;
+    margin-left: 1rem;
+}
+
+
+.subtotal-1{
+    display: flex;
+    column-gap: 15.5rem;
+    margin-left: 40px;
+}
+
+.delievery-free-1{
+    display: flex;
+    column-gap: 18.5rem;
+    margin-left: 40px;
+}
+
+.total-1{
+    display: flex;
+    column-gap: 15.5rem;
+    margin-left: 40px;
+}
+
+.CartTotal .subtotal-1 h3{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #163234;
+}
+
+.CartTotal .subtotal-1 p{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    color: #163234;
+}
+
+.CartTotal .delievery-free-1 h3{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #163234;
+}
+
+.CartTotal .delievery-free-1 p{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #163234;
+}
+
+.CartTotal .total-1 h3{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #163234;
+}
+
+.CartTotal .total-1 p{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #163234;
+}
+
+.continue-btn button{
+    width: 458px;
+    height: 48px;
+    padding: 5px;
+    background: #163234;
+    color: white;
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    margin-top: 37px;
+    margin-left: 38px;
+}
+
+.continue-btn button:hover{
+    background-color: #31676b;
+    color: white;
+    cursor: pointer;
+}
+/*------------------CartPageCss---------------------------------*/
+
+
+/*------------------AddressPageCss------------------------------*/
+
+
+.order-summary-txt h5{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 2rem;
+}
+
+.cart-items-display{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 4rem;
+}
+
+
+.cart-img-1{
+    width: 208px;
+    height: 178px;
+    border: 1px solid #FFD6C0;
+    margin-left: 1rem;
+}
+
+.cart-img-1 img{
+    width: 208px;
+    height: 178px;
+}
+
+.cart-item-quantity-desc{
+    display: flex;
+}
+
+.cart-item-right-desc {
+    margin-left: 1rem;
+}
+
+.cart-item-quantity-desc .cart-item-right-desc .item-title{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    color: #C67A2F;
+}
+
+.cart-item-quantity-desc .cart-item-right-desc .qty,.price{
+    font-family: "Inter",sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+
+
+.addressForm{
+    width: 549px;
+    height: 715px;
+    border: 1px solid #C67A2F;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.addressForm .nameLabel{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    margin-top: 55px;
+    margin-left: 38px;
+}
+
+::placeholder{
+    font-family: "Inter",sans-serif;
+    font-size: 12px;
+    color: #666666;
+    padding: 5px;
+}
+
+
+.addressForm .emailLabel{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-left: 38px;
+}
+
+.addressForm .phoneLabel{
+    font-family: "Inter",sans-serif;
+    margin-top: 10px;
+    margin-left: 38px;
+}
+
+.addressForm .address-1Label,.address-2Label,.address-3Label{
+    font-family: "Inter",sans-serif;
+    margin-top: 10px;
+    margin-left: 38px;
+}
+
+.addressForm input{
+    margin-top: 6px;
+    margin-left: 40px;
+    padding: 2px;
+    width: 458px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: #FFD6C0;
+    border: 1px solid #FFD6C0;
+}
+
+.pincode{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.pincode .pincodeLabel{
+    font-family: "Inter",sans-serif;
+    margin-top: 10px;
+    margin-left: 38px;
+}
+
+.pincode .pincodeLabel .pin{
+    margin-top: 7px;
+    margin-left: 0;
+}
+
+.pincode .cityLabel{
+    font-family: "Inter",sans-serif;
+    margin-top: 10px;
+    margin-left: 38px;
+}
+
+.pincode .cityLabel .city{
+    margin-top: 7px;
+    margin-left: 0;
+}
+
+
+.pincode input{
+    padding: 2px;
+    width: 185px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: #FFD6C0;
+    border: 1px solid #FFD6C0;
+}
+
+.delievery-btn button{
+    width: 458px;
+    height: 48px;
+    padding: 5px;
+    background: #163234;
+    color: white;
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    margin-top: 37px;
+    margin-left: 38px;
+}
+
+.delievery-btn button:hover{
+    background-color: #31676b;
+    color: white;
+    cursor: pointer;
+}
+
+/*------------------AddressPageCss------------------------------*/
+
+
+/*------------------AddressPageFinalCss------------------------------*/
+
+.subTotalsec{
+    width: auto;
+    height: 330px;
+    border: 1px solid #C67A2F;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subtotal{
+    display: flex;
+    column-gap: 15rem;
+    margin-left: 40px;
+}
+
+.delievery-free{
+    display: flex;
+    column-gap: 18.5rem;
+    margin-left: 40px;
+}
+
+.total{
+    display: flex;
+    column-gap: 16rem;
+    margin-left: 40px;
+}
+
+.subTotalsec .subtotal:nth-child(1){
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #163234;
+}
+
+.subTotalsec .subtotal:nth-child(2){
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    color: #163234;
+}
+
+.subTotalsec .delievery-free:nth-child(2){
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #163234;
+    padding-right: 10px;
+}
+
+.subTotalsec .total .tot-h3{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #163234;
+}
+
+.subTotalsec .total .tot-p{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #163234;
+}
+
+.continue-btn button{
+    width: 399px;
+    height: 48px;
+    padding: 5px;
+    background: #163234;
+    color: white;
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    margin-top: 37px;
+    margin-left: 10%;
+}
+
+.continue-btn button:hover{
+    background-color: #31676b;
+    color: white;
+    cursor: pointer;
+}
+
+
+.addressDisplaySec{
+    width: 619px;
+    height: 513px;
+    border: 1px solid #C67A2F;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.addressDisplaySec p{
+    margin-top: 39px;
+    margin-left: 40px;
+}
+
+.update-btn button:hover{
+    background-color: #31676b;
+    color: white;
+    cursor: pointer;
+}
+
+
+.update-btn button{
+    width: 458px;
+    height: 48px;
+    padding: 5px;
+    background: #163234;
+    color: white;
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    margin-top: 37px;
+    margin-left: 13%;
+}
+/*------------------AddressPageFinalCss------------------------------*/
+
+
+
+/* -----------------OrderConfirmPageCss----------------- */
+
+.orderConfirm-details-txt h5{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.orderConfirmed-txt h5{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.arrivingDate p{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.order-Confirmed-icon{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.order-Confirmed-icon img{
+    width: 139px;
+    height: 139px;
+}
+
+
+.ConifrmedDetails{
+    margin-left: 1rem;
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: 1fr;
+    gap: 2rem;
+}
+
+.cart-img-1-order{
+    display: flex;
+}
+
+.itemImg{
+    width: 208px;
+    height: 178px;
+}
+
+.itemImg img{
+    width: 208px;
+    height: 178px;
+    border: 1px solid #FFD6C0;
+}
+
+.cart-img-1-order .cart-item-right-desc .item-title{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    color: #C67A2F;
+}
+
+.cart-img-1-order .cart-item-right-desc .qty,.price{
+    font-family: "Inter",sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+
+
 
 
 /* -----------------footer-section----------------- */
@@ -2682,6 +4581,9 @@
 }
 
 /* -----------------singleProductPage-section----------------- */
+
+
+
 
 
 /* -----------------footer-section----------------- */

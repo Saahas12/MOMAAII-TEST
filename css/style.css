@@ -866,6 +866,154 @@ a {
     cursor: pointer;
 }
 
+
+/*------------------RingProductPageCss---------------*/
+/* -----------------ringProducts----------------- */
+
+.grid-list {
+    width: auto;
+    height: 232px;
+    background-color: #163234;
+    margin-top: 1rem;
+    padding-top: 60px;
+    padding-left: 97px;
+  }
+  
+  .grid-list h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fddac6;
+    text-align: left;
+  }
+  
+  .grid-list h3 span {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #c67a2f;
+  }
+  
+  .grid-list h2 {
+    color: #ffd6c0;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    padding-top: 20px;
+    font-weight: 400;
+  }
+  
+  .grid-list h5 {
+    color: #ffd6c0;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    padding-top: 15px;
+    font-weight: 400;
+    margin-left: 5px;
+  }
+  
+  .grid-list .img-1{
+      display: block;
+      margin-left: 900px;
+      margin-top: -170px;
+    }
+    
+  .grid-list .img-2{
+    display: block;
+    margin-left: 951px;
+    margin-top: -25px;
+  }
+  
+  .grid-list .sort-list{
+      color: #ffd6c0;
+      font-family: "Inter", sans-serif;
+      font-size: 16px;
+      padding-top: 15px;
+      font-weight: 400;
+      margin-left: 1500px;
+      margin-top:-100px;
+  
+  }
+  
+  .container {
+      display: flex;
+      height: 100%;
+  }
+  
+  .ring-side-bar{
+      /* display: flex; */
+      width: auto;
+      height: 232px;
+      background-color: #163234;
+      grid-template-columns: 1fr 1fr 1fr;
+      /* position: fixed; */
+      left: 62px;
+      top: 500px;
+      width: 358px;
+      height: 1000px;
+      background: #163234;
+      border-radius: 20px;
+      margin-left: 2rem;
+      margin-top: 2rem;
+   
+  }
+  
+  .grid {
+      width: 80%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      padding-left: 150px;
+  }
+  
+  .ring-side-bar h3{
+      color: #C67A2F;
+      font-family: "Inter", sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      padding-left: 50px;
+      padding-top: 25px;
+  }
+  
+  .ring-side-bar p{
+      color: #C67A2F;
+      font-family: "Inter", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      padding-left: 60px;
+      
+  }
+  
+  .product-types {
+   padding-left: 30px;
+  }
+  
+  .ring-side-bar img{
+      width: 15px;
+  }
+  
+  .cartGridProducts {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      
+  }
+  
+  .grid-item h1{
+      font-family: "Inter", sans-serif;
+      font-size: 16px;
+      font-weight: 600px;
+  }
+  
+  .grid-item span{
+      color: #FF9961;
+      font-family: "Inter", sans-serif;
+      font-size: 14px;
+      font-weight: 400px;
+  }
+  
+  /* -----------------ringProducts----------------- */
+
+/*------------------RingProductPageCss---------------*/
+
 /* -----------------OrderSummaryCss----------------- */
 
 
@@ -917,7 +1065,14 @@ a {
     color: #163234;
 }
 
-.subTotalsec .total:nth-child(2){
+.subTotalsec .total .tot-h3{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #163234;
+}
+
+.subTotalsec .total .tot-p{
     font-family: "Inter",sans-serif;
     font-size: 1rem;
     font-weight: 400;
@@ -966,18 +1121,16 @@ a {
 
 
 .update-btn button{
-    width: 458px;
+    width: 399px;
     height: 48px;
-    padding: 5px;
+    /* padding: 5px; */
     background: #163234;
     color: white;
-    font-family: "Inter",sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 1rem;
     border-radius: 8px;
     border: none;
-    text-align: center;
-    margin-top: 37px;
-    margin-left: 38px;
+    margin-left: 2rem;
 }
 /* -----------------OrderSummaryFinalCss----------------- */
 
@@ -1077,8 +1230,9 @@ a {
 
 
 .ConifrmedDetails{
-    margin-left: 128px;
-    display: flex;
+    margin-left: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 10rem;
 }
 
@@ -1289,7 +1443,7 @@ a {
     height: 330px;
     border: 1px solid #C67A2F;
     margin-top: 27px;
-    justify-content: end;
+    margin-left: 1rem;
 }
 
 
