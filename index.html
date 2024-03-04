@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no">
     <title>Momaai Frontend</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
@@ -21,15 +21,25 @@
     </div>
 
     <header class="navbar">
+
         <a class="logo" href="./index.html">LOGO</a>
-        <nav>
-            <a class="logo-1" href="./index.html">LOGO</a>
-            <a href="#">Rings<img src="./Frontend/assets/drop-down-icon.svg" class="drop-icon"></a>
-            <a href="#">Earrings<img src="./Frontend/assets/drop-down-icon.svg" class="drop-icon"></a>
-            <a href="#">Necklaces<img src="./Frontend/assets/drop-down-icon.svg" class="drop-icon"></a>
-            <a href="./CartPage.html"><img src="./Frontend/assets/shopping-cart.svg" alt="cart-img"><span>0</span></a>
-            <a href="#" class="cta">LOGIN</a>
-        </nav>
+        <a href="javascript:void(0);"><img src="./Frontend/assets/menu.svg" alt="menu" id="hamburger"></a>
+
+        <div id="my-Links">
+            <nav id="nav">
+                <a class="logo-1" href="./index.html">LOGO</a>
+                <a href="./ringsProductPage.html">Rings<img src="./Frontend/assets/drop-down-icon.svg"
+                        class="drop-icon"></a>
+                <a href="./earringsProductPage.html">Earrings<img src="./Frontend/assets/drop-down-icon.svg"
+                        class="drop-icon"></a>
+                <a href="./necklacesProductPage.html">Necklaces<img src="./Frontend/assets/drop-down-icon.svg"
+                        class="drop-icon"></a>
+                <a href="./CartPage.html"><img src="./Frontend/assets/shopping-cart.svg"
+                        alt="cart-img"><span>0</span></a>
+                <a href="#" class="cta">LOGIN</a>
+            </nav>
+        </div>
+
     </header>
 
     <div class="home-hero-sec">
@@ -54,7 +64,7 @@
             <p class="collection-text">Lorem ipsum dolor sit amet consectetur. Id aliquam at viverra diam interdum
                 venenatis hendrerit nulla. Orci leo lectus consectetur tortor vel id dui erat venenatis.</p>
             <p class="col-txt-2">Lorem ipsum dolor sit amet consectetur.</p>
-            <button class="read-more-btn">EXPLORE</button>
+            <a href="./ringsProductPage.html"><button class="read-more-btn">EXPLORE</button></a>
         </div>
 
         <div class="collection-right">
@@ -73,13 +83,15 @@
 
         <div class="multiple-products">
             <div class="card-img-1">
-                <a href="./singleProductPage.html"><img class="fp-img-1" src="./Frontend/assets/card-img-1.jpg" alt="card-img-1"></a>
+                <a href="./singleProductPage.html"><img class="fp-img-1" src="./Frontend/assets/card-img-1.jpg"
+                        alt="card-img-1"></a>
                 <div class="txt-cart">
                     <div class="carttxt">
                         <p>Lorem ipsum dolor sit,amet consectetur adipisicing.</p>
                     </div>
                     <div class="fp-cart">
-                        <span><img src="./Frontend/assets/shopping-cart.svg" alt="shopping-cart" class="fp-icon-cart"></span>
+                        <span><img src="./Frontend/assets/shopping-cart.svg" alt="shopping-cart"
+                                class="fp-icon-cart"></span>
                     </div>
                     <p class="cart-price">Rs. 6999</p>
                 </div>
@@ -91,7 +103,8 @@
                         <p>Lorem ipsum dolor sit,amet consectetur adipisicing.</p>
                     </div>
                     <div class="fp-cart">
-                        <span><img src="./Frontend/assets/shopping-cart.svg" alt="shopping-cart" class="fp-icon-cart-1"></span>
+                        <span><img src="./Frontend/assets/shopping-cart.svg" alt="shopping-cart"
+                                class="fp-icon-cart-1"></span>
                     </div>
                 </div>
                 <p class="cart-price">Rs. 6999</p>
@@ -103,7 +116,8 @@
                         <p>Lorem ipsum dolor sit,amet consectetur adipisicing.</p>
                     </div>
                     <div class="fp-cart">
-                        <span><img src="./Frontend/assets/shopping-cart.svg" alt="shopping-cart" class="fp-icon-cart-2"></span>
+                        <span><img src="./Frontend/assets/shopping-cart.svg" alt="shopping-cart"
+                                class="fp-icon-cart-2"></span>
                     </div>
                 </div>
                 <p class="cart-price">Rs. 6999</p>
@@ -115,7 +129,8 @@
                         <p>Lorem ipsum dolor sit,amet consectetur adipisicing.</p>
                     </div>
                     <div class="fp-cart">
-                        <span><img src="./Frontend/assets/shopping-cart.svg" alt="shopping-cart" class="fp-icon-cart-3"></span>
+                        <span><img src="./Frontend/assets/shopping-cart.svg" alt="shopping-cart"
+                                class="fp-icon-cart-3"></span>
                     </div>
                 </div>
                 <p class="cart-price">Rs. 6999</p>
@@ -129,27 +144,36 @@
         <h3>BENEFITS JUST FOR YOU</h3>
         <div class="values">
             <div class="certificate">
-                <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 20 20"><path fill="#FF9A62" d="M4 3a2 2 0 0 0-2 2v3.671c.285-.352.622-.66 1-.913V5a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H9.242a4.514 4.514 0 0 1-.242.329V15h7a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2zm1 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m.5 8.5a3.5 3.5 0 1 1 0-7a3.5 3.5 0 0 1 0 7m-2.5.242A4.479 4.479 0 0 0 5.5 16c.925 0 1.785-.28 2.5-.758V18a.5.5 0 0 1-.8.4l-1.4-1.05a.5.5 0 0 0-.6 0L3.8 18.4A.5.5 0 0 1 3 18zM10.5 10a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 20 20">
+                    <path fill="#FF9A62"
+                        d="M4 3a2 2 0 0 0-2 2v3.671c.285-.352.622-.66 1-.913V5a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H9.242a4.514 4.514 0 0 1-.242.329V15h7a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2zm1 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m.5 8.5a3.5 3.5 0 1 1 0-7a3.5 3.5 0 0 1 0 7m-2.5.242A4.479 4.479 0 0 0 5.5 16c.925 0 1.785-.28 2.5-.758V18a.5.5 0 0 1-.8.4l-1.4-1.05a.5.5 0 0 0-.6 0L3.8 18.4A.5.5 0 0 1 3 18zM10.5 10a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1z" />
+                </svg>
                 <p class="cert-txt">Lorem ipsum dolor sit amet consectetur.</p>
-                <p class="cert-txt-1">Lorem ipsum dolor sit amet consectetur. Id aliquam at viverra diam interdum venenatis hendrerit nulla. Orci leo lectus consectetur tortor vel id dui erat venenatis.</p>
+                <p class="cert-txt-1">Lorem ipsum dolor sit amet consectetur. Id aliquam at viverra diam interdum
+                    venenatis hendrerit nulla. Orci leo lectus consectetur tortor vel id dui erat venenatis.</p>
             </div>
 
             <div class="gold">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 24 24">
-                        <path fill="#FF9A62" d="M8 11h8a1 1 0 0 0 .77-.37A1 1 0 0 0 17 9.8l-1-5a1 1 0 0 0-1-.8H9a1 1 0 0 0-1 .8l-1 5a1 1 0 0 0 .21.83A1 1 0 0 0 8 11m1.82-5h4.36l.6 3H9.22ZM22 13.8a1 1 0 0 0-1-.8h-6a1 1 0 0 0-1 .8l-1 5a1 1 0 0 0 .21.83A1 1 0 0 0 14 20h8a1 1 0 0 0 .77-.37a1 1 0 0 0 .23-.83ZM15.22 18l.6-3h4.36l.6 3ZM9 13H3a1 1 0 0 0-1 .8l-1 5a1 1 0 0 0 .21.83A1 1 0 0 0 2 20h8a1 1 0 0 0 .77-.37a1 1 0 0 0 .23-.83l-1-5a1 1 0 0 0-1-.8m-5.78 5l.6-3h4.36l.6 3Z" />
-                    </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 24 24">
+                    <path fill="#FF9A62"
+                        d="M8 11h8a1 1 0 0 0 .77-.37A1 1 0 0 0 17 9.8l-1-5a1 1 0 0 0-1-.8H9a1 1 0 0 0-1 .8l-1 5a1 1 0 0 0 .21.83A1 1 0 0 0 8 11m1.82-5h4.36l.6 3H9.22ZM22 13.8a1 1 0 0 0-1-.8h-6a1 1 0 0 0-1 .8l-1 5a1 1 0 0 0 .21.83A1 1 0 0 0 14 20h8a1 1 0 0 0 .77-.37a1 1 0 0 0 .23-.83ZM15.22 18l.6-3h4.36l.6 3ZM9 13H3a1 1 0 0 0-1 .8l-1 5a1 1 0 0 0 .21.83A1 1 0 0 0 2 20h8a1 1 0 0 0 .77-.37a1 1 0 0 0 .23-.83l-1-5a1 1 0 0 0-1-.8m-5.78 5l.6-3h4.36l.6 3Z" />
+                </svg>
 
                 <p class="gold-txt">Lorem ipsum dolor sit amet consectetur.</p>
-                <p class="gold-txt-1">Lorem ipsum dolor sit amet consectetur. Id aliquam at viverra diam interdum venenatis hendrerit nulla. Orci leo lectus consectetur tortor vel id dui erat venenatis.</p>
+                <p class="gold-txt-1">Lorem ipsum dolor sit amet consectetur. Id aliquam at viverra diam interdum
+                    venenatis hendrerit nulla. Orci leo lectus consectetur tortor vel id dui erat venenatis.</p>
             </div>
 
             <div class="diamond">
                 <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 512 512">
-                    <path fill="none" stroke="#FF9A62" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="m35.42 188.21l207.75 269.46a16.17 16.17 0 0 0 25.66 0l207.75-269.46a16.52 16.52 0 0 0 .95-18.75L407.06 55.71A16.22 16.22 0 0 0 393.27 48H118.73a16.22 16.22 0 0 0-13.79 7.71L34.47 169.46a16.52 16.52 0 0 0 .95 18.75M48 176h416" />
-                    <path fill="none" stroke="#FF9A62" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="m400 64l-48 112l-96-128M112 64l48 112l96-128m0 400l-96-272m96 272l96-272" />
+                    <path fill="none" stroke="#FF9A62" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"
+                        d="m35.42 188.21l207.75 269.46a16.17 16.17 0 0 0 25.66 0l207.75-269.46a16.52 16.52 0 0 0 .95-18.75L407.06 55.71A16.22 16.22 0 0 0 393.27 48H118.73a16.22 16.22 0 0 0-13.79 7.71L34.47 169.46a16.52 16.52 0 0 0 .95 18.75M48 176h416" />
+                    <path fill="none" stroke="#FF9A62" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"
+                        d="m400 64l-48 112l-96-128M112 64l48 112l96-128m0 400l-96-272m96 272l96-272" />
                 </svg>
                 <p class="diamond-txt">Lorem ipsum dolor sit amet consectetur.</p>
-                <p class="diamond-txt-1">Lorem ipsum dolor sit amet consectetur. Id aliquam at viverra diam interdum venenatis hendrerit nulla. Orci leo lectus consectetur tortor vel id dui erat venenatis.</p>
+                <p class="diamond-txt-1">Lorem ipsum dolor sit amet consectetur. Id aliquam at viverra diam interdum
+                    venenatis hendrerit nulla. Orci leo lectus consectetur tortor vel id dui erat venenatis.</p>
             </div>
         </div>
     </section>
@@ -176,7 +200,7 @@
             <p class="jc-txt">Join our Instagram community</p>
         </div>
     </div>
-    
+
 
     <footer class="footer">
         <div class="categories">
@@ -206,8 +230,9 @@
             <p>FACEBOOK</p>
             <p>TWITTER</p>
         </div>
-        <h3>COPYRIGHT 2023 by LOGO. ALL RIGHTS RESERVED.</h3>
+        <h3>COPYRIGHT 2024 by LOGO. ALL RIGHTS RESERVED.</h3>
     </footer>
+    <script src="./Frontend/js/script.js"></script>
 </body>
 
 </html>

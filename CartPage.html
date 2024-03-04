@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no">
     <title>Momaai Frontend</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
@@ -19,15 +19,25 @@
     </div>
 
     <header class="navbar">
+
         <a class="logo" href="./index.html">LOGO</a>
-        <nav>
-            <a class="logo-1" href="./index.html">LOGO</a>
-            <a href="#">Rings<img src="./Frontend/assets/drop-down-icon.svg" class="drop-icon"></a>
-            <a href="#">Earrings<img src="./Frontend/assets/drop-down-icon.svg" class="drop-icon"></a>
-            <a href="#">Necklaces<img src="./Frontend/assets/drop-down-icon.svg" class="drop-icon"></a>
-            <a href="./CartPage.html"><img src="./Frontend/assets/shopping-cart.svg" alt="cart-img"><span>3</span></a>
-            <a href="#" class="cta">LOGIN</a>
-        </nav>
+        <a href="javascript:void(0);"><img src="./Frontend/assets/menu.svg" alt="menu" id="hamburger"></a>
+
+        <div id="my-Links">
+            <nav id="nav">
+                <a class="logo-1" href="./index.html">LOGO</a>
+                <a href="./ringsProductPage.html">Rings<img src="./Frontend/assets/drop-down-icon.svg"
+                        class="drop-icon"></a>
+                <a href="./earringsProductPage.html">Earrings<img src="./Frontend/assets/drop-down-icon.svg"
+                        class="drop-icon"></a>
+                <a href="./necklacesProductPage.html">Necklaces<img src="./Frontend/assets/drop-down-icon.svg"
+                        class="drop-icon"></a>
+                <a href="./CartPage.html"><img src="./Frontend/assets/shopping-cart.svg"
+                        alt="cart-img"><span>0</span></a>
+                <a href="#" class="cta">LOGIN</a>
+            </nav>
+        </div>
+
     </header>
 
     <div class="myCart-title">
@@ -220,7 +230,7 @@
             <p>TOTAL</p>
         </div>
 
-        <div class="continue-btn">
+        <div class="continue-btn-1">
             <a href="./AddressPage.html"><button class="continue-btn">CONTINUE</button></a>
         </div>
     </div>
@@ -256,5 +266,6 @@
         </div>
         <h3>COPYRIGHT 2023 by LOGO. ALL RIGHTS RESERVED.</h3>
     </footer>
+    <script src="./Frontend/js/script.js"></script>
 </body>
 </html>
