@@ -102,6 +102,12 @@
         margin-top: 2rem;
     }
 
+    .home-hero-sec img {
+        width: 100%;
+        height: auto;
+        margin-top: 17px;
+    }
+
     #mid-section {
         display: flex;
         /* grid-template-rows: auto; */

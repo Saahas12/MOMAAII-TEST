@@ -127,10 +127,9 @@ a {
 
 /* -----------------hero-section----------------- */
 
-.home-hero-sec {
-    width: auto;
-    height: 525px;
-    background: #F3DECE;
+.home-hero-sec img {
+    width: 100%;
+    height: 800px;
     margin-top: 17px;
 }
 
