@@ -8,7 +8,7 @@
     /* -----------------top-navbar--------------------- */
 
 
-    .top-header .top-nav {
+    .top-header {
         display: none;
     }
 
@@ -38,7 +38,7 @@
         display: none;
     }
 
-    .navbar .logo-1 {
+    .navbar .logo-1 img {
         display: block;
     }
 
@@ -55,7 +55,7 @@
     .navbar .logo-1 {
         font-size: 3rem;
         font-weight: 700;
-        color: #163234;
+        color: #1E3231;
         transition: all 0.2s;
         font-family: "Newsreader", serif;
     }
@@ -72,7 +72,7 @@
     .navbar .cta {
         width: 50%;
         padding: 1rem;
-        background-color: #163234;
+        background-color: #1E3231;
         color: white;
         border-radius: 1rem;
         font-size: 1rem;
@@ -102,10 +102,56 @@
         margin-top: 2rem;
     }
 
-    .home-hero-sec img {
-        width: 100%;
-        height: auto;
-        margin-top: 17px;
+    .home-hero-sec {
+        /* width: 100%;
+        height: 500px;
+        margin-top: 17px; */
+        width: auto;
+        height: 400px;
+        background: #1E3231;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .left-hero-title {
+        margin-top: auto;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    .left-hero-title h3 {
+        font-family: "Newsreader", serif;
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: white;
+        align-items: center;
+    }
+
+    .left-hero-title h4 {
+        font-family: "Newsreader", serif;
+        font-size: 1.5rem;
+        font-weight: 300;
+        color: white;
+    }
+
+    .right-hero-title img {
+        width: 80px;
+        height: 80px;
+        display: none;
+    }
+
+    .shop-btn {
+        width: auto;
+        height: 45px;
+        padding: 1rem;
+        font-family: "Inter", sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        background: #C97F5F;
+        border: none;
+        color: white;
     }
 
     #mid-section {
@@ -130,7 +176,7 @@
         font-family: "Newsreader", serif;
         font-weight: 500;
         font-size: 3rem;
-        color: #163234;
+        color: #1E3231;
     }
 
     .collection-text {
@@ -161,7 +207,7 @@
     .read-more-btn {
         width: 50%;
         padding: 1rem;
-        background-color: #163234;
+        background-color: #1E3231;
         color: #F3DECE;
         border-radius: 50px;
         font-size: 1rem;
@@ -217,7 +263,7 @@
         font-size: 2rem;
         font-weight: 400;
         text-align: center;
-        color: #163234;
+        color: #1E3231;
         padding-top: 1rem;
     }
 
@@ -322,7 +368,7 @@
         font-size: 1.5rem;
         font-weight: 600;
         text-align: center;
-        color: #163234;
+        color: #1E3231;
         padding-top: 1rem;
     }
 
@@ -498,7 +544,7 @@
     }
 
     .card img {
-        margin-left: 6rem;
+        margin-left: 5rem;
         margin-right: auto;
     }
 
@@ -631,7 +677,7 @@
     .cart-Button {
         width: 126px;
         height: 48px;
-        background-color: #163234;
+        background-color: #1E3231;
         color: white;
         padding: 1rem;
         border: none;
@@ -859,48 +905,48 @@
         font-family: "Inter", sans-serif;
         font-size: 1rem;
         font-weight: 700;
-        color: #163234;
+        color: #1E3231;
     }
 
     .CartTotal .subtotal-1 p {
         font-family: "Inter", sans-serif;
         font-size: 1rem;
-        color: #163234;
+        color: #1E3231;
     }
 
     .CartTotal .delievery-free-1 h3 {
         font-family: "Inter", sans-serif;
         font-size: 1rem;
         font-weight: 700;
-        color: #163234;
+        color: #1E3231;
     }
 
     .CartTotal .delievery-free-1 p {
         font-family: "Inter", sans-serif;
         font-size: 1rem;
         font-weight: 400;
-        color: #163234;
+        color: #1E3231;
     }
 
     .CartTotal .total-1 h3 {
         font-family: "Inter", sans-serif;
         font-size: 1rem;
         font-weight: 700;
-        color: #163234;
+        color: #1E3231;
     }
 
     .CartTotal .total-1 p {
         font-family: "Inter", sans-serif;
         font-size: 1rem;
         font-weight: 400;
-        color: #163234;
+        color: #1E3231;
     }
 
     .continue-btn-1 button {
         width: 277px;
         height: 48px;
         padding: 5px;
-        background: #163234;
+        background: #1E3231;
         color: white;
         font-family: "Inter", sans-serif;
         font-size: 1rem;
@@ -1065,7 +1111,7 @@
         width: 300px;
         height: 48px;
         padding: 5px;
-        background: #163234;
+        background: #1E3231;
         color: white;
         font-family: "Inter", sans-serif;
         font-size: 1rem;
@@ -1118,20 +1164,20 @@
         font-family: "Inter", sans-serif;
         font-size: 1rem;
         font-weight: 400;
-        color: #163234;
+        color: #1E3231;
     }
 
     .subTotalsec .subtotal:nth-child(2) {
         font-family: "Inter", sans-serif;
         font-size: 1rem;
-        color: #163234;
+        color: #1E3231;
     }
 
     .subTotalsec .delievery-free:nth-child(2) {
         font-family: "Inter", sans-serif;
         font-size: 1rem;
         font-weight: 400;
-        color: #163234;
+        color: #1E3231;
         padding-right: 10px;
     }
 
@@ -1139,21 +1185,21 @@
         font-family: "Inter", sans-serif;
         font-size: 1rem;
         font-weight: 700;
-        color: #163234;
+        color: #1E3231;
     }
 
     .subTotalsec .total .tot-p {
         font-family: "Inter", sans-serif;
         font-size: 1rem;
         font-weight: 400;
-        color: #163234;
+        color: #1E3231;
     }
 
     .continue-btn button {
         width: 303px;
         height: 48px;
         padding: 5px;
-        background: #163234;
+        background: #1E3231;
         color: white;
         font-family: "Inter", sans-serif;
         font-size: 1rem;
@@ -1195,7 +1241,7 @@
         width: 303px;
         height: 48px;
         padding: 5px;
-        background: #163234;
+        background: #1E3231;
         color: white;
         font-family: "Inter", sans-serif;
         font-size: 1rem;
@@ -1274,7 +1320,7 @@
         width: 303px;
         height: 48px;
         padding: 5px;
-        background: #163234;
+        background: #1E3231;
         color: white;
         font-family: "Inter", sans-serif;
         font-size: 1rem;
@@ -1308,7 +1354,7 @@
         width: 399px;
         height: 48px;
         /* padding: 5px; */
-        background: #163234;
+        background: #1E3231;
         color: white;
         font-family: "Inter", sans-serif;
         font-size: 1rem;
@@ -1362,7 +1408,7 @@
     .footer {
         width: auto;
         height: auto;
-        background: #163234;
+        background: #1E3231;
         margin-top: 50px;
         display: grid;
         grid-template-columns: none;
@@ -1479,7 +1525,7 @@
     /* -----------------top-navbar--------------------- */
 
 
-    .top-header .top-nav {
+    .top-header{
         display: none;
     }
 
@@ -1496,13 +1542,14 @@
 
     .navbar nav {
         flex-direction: column;
+        margin-top: 7rem;
     }
 
     .navbar .logo {
         display: none;
     }
 
-    .navbar .logo-1 {
+    .navbar .logo-1 img {
         display: block;
     }
 
@@ -1519,13 +1566,18 @@
         font-weight: 400;
     }
 
-    .navbar .logo-1 {
+    .navbar .logo-1 img {
+        width: 100px;
+        height: 100px;
+    }
+
+    /* .navbar .logo-1 {
         font-size: 3rem;
         font-weight: 700;
-        color: #163234;
+        color: #1E3231;
         transition: all 0.2s;
         font-family: "Newsreader", serif;
-    }
+    } */
 
     .drop-icon {
         margin: 0px 5px -6px 5px;
@@ -1539,7 +1591,7 @@
     .navbar .cta {
         width: 50%;
         padding: 1rem;
-        background-color: #163234;
+        background-color: #1E3231;
         color: white;
         border-radius: 1rem;
         font-size: 2rem;
@@ -1563,6 +1615,58 @@
     .home-hero-sec {
         margin-top: 2rem;
     }
+
+    .home-hero-sec {
+        /* width: 100%;
+        height: 500px;
+        margin-top: 17px; */
+        width: 100%;
+        height: 400px;
+        background: #1E3231;
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .left-hero-title {
+        margin-top: auto;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .left-hero-title h3 {
+        font-family: "Newsreader", serif;
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: white;
+        align-items: center;
+    }
+
+    .left-hero-title h4 {
+        font-family: "Newsreader", serif;
+        font-size: 1.5rem;
+        font-weight: 300;
+        color: white;
+    }
+
+    .right-hero-title img {
+        width: 80px;
+        height: 80px;
+        display: none;
+    }
+
+    .shop-btn {
+        width: auto;
+        height: 45px;
+        padding: 1rem;
+        font-family: "Inter", sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        background: #C97F5F;
+        border: none;
+        color: white;
+    }
+
     #mid-section {
         display: flex;
         /* grid-template-rows: auto; */
@@ -1585,7 +1689,7 @@
         font-family: "Newsreader", serif;
         font-weight: 500;
         font-size: 7rem;
-        color: #163234;
+        color: #1E3231;
         margin-top: 0;
         margin-bottom: 0;
     }
@@ -1618,7 +1722,7 @@
     .read-more-btn {
         width: 50%;
         padding: 2rem;
-        background-color: #163234;
+        background-color: #1E3231;
         color: #F3DECE;
         border-radius: 50px;
         font-size: 2rem;
@@ -1674,7 +1778,7 @@
         font-size: 4rem;
         font-weight: 400;
         text-align: center;
-        color: #163234;
+        color: #1E3231;
         padding-top: 1rem;
     }
 
@@ -1778,7 +1882,7 @@
         font-size: 2rem;
         font-weight: 400;
         text-align: center;
-        color: #163234;
+        color: #1E3231;
         padding-top: 1rem;
     }
 
@@ -2047,7 +2151,7 @@
         height: 586px;
         padding-left: 0;
         margin-top: 1.5rem;
-        
+
     }
 
 
@@ -2133,7 +2237,7 @@
     .cart-Button {
         width: 126px;
         height: 48px;
-        background-color: #163234;
+        background-color: #1E3231;
         color: white;
         padding: 1rem;
         border: none;
@@ -2350,48 +2454,48 @@
         font-family: "Inter", sans-serif;
         font-size: 1rem;
         font-weight: 700;
-        color: #163234;
+        color: #1E3231;
     }
 
     .CartTotal .subtotal-1 p {
         font-family: "Inter", sans-serif;
         font-size: 1rem;
-        color: #163234;
+        color: #1E3231;
     }
 
     .CartTotal .delievery-free-1 h3 {
         font-family: "Inter", sans-serif;
         font-size: 1rem;
         font-weight: 700;
-        color: #163234;
+        color: #1E3231;
     }
 
     .CartTotal .delievery-free-1 p {
         font-family: "Inter", sans-serif;
         font-size: 1rem;
         font-weight: 400;
-        color: #163234;
+        color: #1E3231;
     }
 
     .CartTotal .total-1 h3 {
         font-family: "Inter", sans-serif;
         font-size: 1rem;
         font-weight: 700;
-        color: #163234;
+        color: #1E3231;
     }
 
     .CartTotal .total-1 p {
         font-family: "Inter", sans-serif;
         font-size: 1rem;
         font-weight: 400;
-        color: #163234;
+        color: #1E3231;
     }
 
     .continue-btn button {
         width: 458px;
         height: 48px;
         padding: 5px;
-        background: #163234;
+        background: #1E3231;
         color: white;
         font-family: "Inter", sans-serif;
         font-size: 1rem;
@@ -2561,7 +2665,7 @@
         width: 458px;
         height: 48px;
         padding: 5px;
-        background: #163234;
+        background: #1E3231;
         color: white;
         font-family: "Inter", sans-serif;
         font-size: 1rem;
@@ -2613,20 +2717,20 @@
         font-family: "Inter", sans-serif;
         font-size: 1rem;
         font-weight: 400;
-        color: #163234;
+        color: #1E3231;
     }
 
     .subTotalsec .subtotal:nth-child(2) {
         font-family: "Inter", sans-serif;
         font-size: 1rem;
-        color: #163234;
+        color: #1E3231;
     }
 
     .subTotalsec .delievery-free:nth-child(2) {
         font-family: "Inter", sans-serif;
         font-size: 1rem;
         font-weight: 400;
-        color: #163234;
+        color: #1E3231;
         padding-right: 10px;
     }
 
@@ -2634,21 +2738,21 @@
         font-family: "Inter", sans-serif;
         font-size: 1rem;
         font-weight: 700;
-        color: #163234;
+        color: #1E3231;
     }
 
     .subTotalsec .total .tot-p {
         font-family: "Inter", sans-serif;
         font-size: 1rem;
         font-weight: 400;
-        color: #163234;
+        color: #1E3231;
     }
 
     .continue-btn button {
         width: 399px;
         height: 48px;
         padding: 5px;
-        background: #163234;
+        background: #1E3231;
         color: white;
         font-family: "Inter", sans-serif;
         font-size: 1rem;
@@ -2690,7 +2794,7 @@
         width: 458px;
         height: 48px;
         padding: 5px;
-        background: #163234;
+        background: #1E3231;
         color: white;
         font-family: "Inter", sans-serif;
         font-size: 1rem;
@@ -2782,7 +2886,7 @@
         width: 399px;
         height: 48px;
         /* padding: 5px; */
-        background: #163234;
+        background: #1E3231;
         color: white;
         font-family: "Inter", sans-serif;
         font-size: 1rem;
@@ -2841,7 +2945,7 @@
     .footer {
         width: auto;
         height: auto;
-        background: #163234;
+        background: #1E3231;
         margin-top: 50px;
         display: grid;
         grid-template-columns: none;
@@ -2941,10 +3045,11 @@
     }
 
     /*------------------RingProductPageCss---------------*/
-    .horizontal-grid-section{
+    .horizontal-grid-section {
         margin-top: 2rem;
 
     }
+
     /*------------------RingProductPageCss---------------*/
 
 }
@@ -3000,7 +3105,7 @@
     .navbar .logo-1 {
         font-size: 3rem;
         font-weight: 700;
-        color: #163234;
+        color: #1E3231;
         transition: all 0.2s;
         font-family: "Newsreader", serif;
     }
@@ -3017,7 +3122,7 @@
     .navbar .cta {
         width: 50%;
         padding: 1rem;
-        background-color: #163234;
+        background-color: #1E3231;
         color: white;
         border-radius: 1rem;
         font-size: 2rem;
@@ -3055,7 +3160,7 @@
         font-family: "Newsreader", serif;
         font-weight: 500;
         font-size: 6.5rem;
-        color: #163234;
+        color: #1E3231;
         margin-top: 0;
         margin-bottom: 0;
     }
@@ -3088,7 +3193,7 @@
     .read-more-btn {
         width: 50%;
         padding: 1rem;
-        background-color: #163234;
+        background-color: #1E3231;
         color: #F3DECE;
         border-radius: 50px;
         font-size: 2rem;
@@ -3144,7 +3249,7 @@
         font-size: 4rem;
         font-weight: 400;
         text-align: center;
-        color: #163234;
+        color: #1E3231;
         padding-top: 1rem;
     }
 
@@ -3248,7 +3353,7 @@
         font-size: 2rem;
         font-weight: 400;
         text-align: center;
-        color: #163234;
+        color: #1E3231;
         padding-top: 1rem;
     }
 
@@ -3528,7 +3633,7 @@
     .cart-Button {
         width: 126px;
         height: 48px;
-        background-color: #163234;
+        background-color: #1E3231;
         color: white;
         padding: 1rem;
         border: none;
@@ -3586,8 +3691,8 @@
     }
 
     .card img {
-        margin-left: 4rem;
-        width: auto;
+        margin-left: 3rem;
+        width: 150px;
         height: auto;
     }
 
@@ -3798,48 +3903,48 @@
         font-family: "Inter", sans-serif;
         font-size: 1rem;
         font-weight: 700;
-        color: #163234;
+        color: #1E3231;
     }
 
     .CartTotal .subtotal-1 p {
         font-family: "Inter", sans-serif;
         font-size: 1rem;
-        color: #163234;
+        color: #1E3231;
     }
 
     .CartTotal .delievery-free-1 h3 {
         font-family: "Inter", sans-serif;
         font-size: 1rem;
         font-weight: 700;
-        color: #163234;
+        color: #1E3231;
     }
 
     .CartTotal .delievery-free-1 p {
         font-family: "Inter", sans-serif;
         font-size: 1rem;
         font-weight: 400;
-        color: #163234;
+        color: #1E3231;
     }
 
     .CartTotal .total-1 h3 {
         font-family: "Inter", sans-serif;
         font-size: 1rem;
         font-weight: 700;
-        color: #163234;
+        color: #1E3231;
     }
 
     .CartTotal .total-1 p {
         font-family: "Inter", sans-serif;
         font-size: 1rem;
         font-weight: 400;
-        color: #163234;
+        color: #1E3231;
     }
 
     .continue-btn button {
         width: 458px;
         height: 48px;
         padding: 5px;
-        background: #163234;
+        background: #1E3231;
         color: white;
         font-family: "Inter", sans-serif;
         font-size: 1rem;
@@ -4010,7 +4115,7 @@
         width: 458px;
         height: 48px;
         padding: 5px;
-        background: #163234;
+        background: #1E3231;
         color: white;
         font-family: "Inter", sans-serif;
         font-size: 1rem;
@@ -4062,20 +4167,20 @@
         font-family: "Inter", sans-serif;
         font-size: 1rem;
         font-weight: 400;
-        color: #163234;
+        color: #1E3231;
     }
 
     .subTotalsec .subtotal:nth-child(2) {
         font-family: "Inter", sans-serif;
         font-size: 1rem;
-        color: #163234;
+        color: #1E3231;
     }
 
     .subTotalsec .delievery-free:nth-child(2) {
         font-family: "Inter", sans-serif;
         font-size: 1rem;
         font-weight: 400;
-        color: #163234;
+        color: #1E3231;
         padding-right: 10px;
     }
 
@@ -4083,21 +4188,21 @@
         font-family: "Inter", sans-serif;
         font-size: 1rem;
         font-weight: 700;
-        color: #163234;
+        color: #1E3231;
     }
 
     .subTotalsec .total .tot-p {
         font-family: "Inter", sans-serif;
         font-size: 1rem;
         font-weight: 400;
-        color: #163234;
+        color: #1E3231;
     }
 
     .continue-btn button {
         width: 399px;
         height: 48px;
         padding: 5px;
-        background: #163234;
+        background: #1E3231;
         color: white;
         font-family: "Inter", sans-serif;
         font-size: 1rem;
@@ -4139,7 +4244,7 @@
         width: 458px;
         height: 48px;
         padding: 5px;
-        background: #163234;
+        background: #1E3231;
         color: white;
         font-family: "Inter", sans-serif;
         font-size: 1rem;
@@ -4233,7 +4338,7 @@
     .footer {
         width: auto;
         height: auto;
-        background: #163234;
+        background: #1E3231;
         margin-top: 325px;
         display: grid;
         grid-template-columns: none;
@@ -4330,730 +4435,5 @@
     .footer h3 {
         font-size: 1rem;
         text-align: center;
-    }
-}
-
-
-
-
-@media (min-width: 1024px) and (max-width: 1366px) {
-    body {
-        width: auto;
-        height: auto;
-        overflow-x: hidden;
-    }
-
-    /* -----------------top-navbar--------------------- */
-
-
-    .top-header .top-nav {
-        display: none;
-    }
-
-    /* -----------------top-navbar--------------------- */
-
-    /* -----------------top-second-navbar--------------------- */
-    .navbar {
-        display: inline;
-        align-items: center;
-        background-color: white;
-        padding: 0.7rem 2rem;
-        margin-top: 30px;
-    }
-
-    .navbar nav {
-        flex-direction: column;
-    }
-
-    .navbar .logo {
-        display: none;
-    }
-
-    .navbar .logo-1 {
-        display: block;
-    }
-
-    .navbar nav a {
-        color: #000;
-        font-weight: 500;
-        transition: all 0.2s;
-        font-family: "Inter", sans-serif;
-        font-size: 1.9rem;
-        font-weight: 400;
-    }
-
-    .navbar .logo-1 {
-        font-size: 3rem;
-        font-weight: 700;
-        color: #163234;
-        transition: all 0.2s;
-        font-family: "Newsreader", serif;
-    }
-
-    .drop-icon {
-        margin: 0px 5px -6px 5px;
-    }
-
-    .navbar a img {
-        width: 40px;
-        height: 40px;
-    }
-
-    .navbar .cta {
-        width: 50%;
-        padding: 1rem;
-        background-color: #163234;
-        color: white;
-        border-radius: 1rem;
-        font-size: 2rem;
-        text-align: center;
-    }
-
-    .navbar .cta:hover {
-        background-color: #31676b;
-        color: white;
-    }
-
-    /* -----------------top-second-navbar--------------------- */
-
-
-    /* -----------------whole-new-collection-section----------------- */
-    #mid-section {
-        display: flex;
-        /* grid-template-rows: auto; */
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        padding: 3rem;
-    }
-
-
-    .new-coll-txt {
-        font-family: "Inter", sans-serif;
-        font-size: 2rem;
-        font-weight: 300;
-        color: #C67A2F;
-    }
-
-    .whole-new-collection-text {
-        font-family: "Newsreader", serif;
-        font-weight: 500;
-        font-size: 6.5rem;
-        color: #163234;
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-
-    .collection-text {
-        font-family: "Newsreader", serif;
-        font-size: 2rem;
-        font-weight: 400;
-    }
-
-    .col-txt-2 {
-        font-family: "Newsreader", serif;
-        font-size: 2rem;
-        font-weight: 400;
-    }
-
-    .collection-right .collection-img-left {
-        width: 100%;
-        height: auto;
-        border-radius: 52px;
-    }
-
-    .collection-left .collection-img-right {
-        width: 373px;
-        height: 248px;
-        border-top-right-radius: 50px;
-        display: none;
-    }
-
-    .read-more-btn {
-        width: 50%;
-        padding: 1rem;
-        background-color: #163234;
-        color: #F3DECE;
-        border-radius: 50px;
-        font-size: 2rem;
-        border: none;
-        margin-bottom: 1rem;
-    }
-
-
-    /* -----------------whole-new-collection-section----------------- */
-    /* -----------------fefatured-products-section----------------- */
-    .featured-products {
-        width: auto;
-        height: auto;
-        background: #F3DECE;
-    }
-
-    .fp-txt {
-        font-family: "Inter", sans-serif;
-        font-size: 2.5rem;
-        text-align: center;
-        color: #C67A2F;
-        padding-top: 3.5rem;
-    }
-
-    .carttxt p {
-        font-family: "Inter", sans-serif;
-        font-size: 2rem;
-    }
-
-    .fptxt-1 p {
-        font-family: "Inter", sans-serif;
-        font-size: 2rem;
-    }
-
-    .fptxt-2 p {
-        font-family: "Inter", sans-serif;
-        font-size: 2rem;
-    }
-
-    .fptxt-3 p {
-        font-family: "Inter", sans-serif;
-        font-size: 2rem;
-    }
-
-    .cart-price {
-        font-family: "Inter", sans-serif;
-        font-size: 2rem;
-    }
-
-
-    .SB-txt {
-        font-family: "Newsreader", serif;
-        font-size: 4rem;
-        font-weight: 400;
-        text-align: center;
-        color: #163234;
-        padding-top: 1rem;
-    }
-
-    .multiple-products {
-        grid-template-columns: min-content;
-        column-gap: 3.5rem;
-        justify-content: center;
-    }
-
-
-    .txt-cart,
-    .txt-cart-1,
-    .txt-cart-2,
-    .txt-cart-3 {
-        grid-template-columns: 1fr 1fr;
-        column-gap: 2rem;
-    }
-
-    .fp-icon-cart {
-        margin-top: 1.2rem;
-        margin-left: 4rem;
-        width: 34px;
-        height: 34px;
-    }
-
-    .fp-icon-cart-1 {
-        margin-top: 1.2rem;
-        margin-left: 4rem;
-        width: 34px;
-        height: 34px;
-    }
-
-    .fp-icon-cart-2 {
-        margin-top: 1.2rem;
-        margin-left: 4rem;
-        width: 34px;
-        height: 34px;
-    }
-
-    .fp-icon-cart-3 {
-        margin-top: 1.2rem;
-        margin-left: 4rem;
-        width: 34px;
-        height: 34px;
-    }
-
-    .card-img-1,
-    .card-img-2,
-    .card-img-3,
-    .card-img-4 {
-        align-items: center;
-        text-align: left;
-        justify-content: center;
-    }
-
-    .card-img-1 .fp-img-1 {
-        width: 300px;
-        height: 300px;
-    }
-
-    .card-img-2 .fp-img-2 {
-        width: 300px;
-        height: 300px;
-    }
-
-    .card-img-3 .fp-img-3 {
-        width: 300px;
-        height: 300px;
-    }
-
-    .card-img-4 .fp-img-4 {
-        width: 300px;
-        height: 300px;
-    }
-
-
-
-
-    /* -----------------fefatured-products-section----------------- */
-
-
-
-    /* -----------------our-company-section----------------- */
-    .values {
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-columns: none;
-        row-gap: 0.5rem;
-        justify-content: center;
-    }
-
-    .our-company .our-company-txt {
-        font-family: "Inter", sans-serif;
-        font-size: 1rem;
-        text-align: center;
-        color: #C67A2F;
-    }
-
-    .our-company h3 {
-        font-family: "Newsreader", serif;
-        font-size: 2rem;
-        font-weight: 400;
-        text-align: center;
-        color: #163234;
-        padding-top: 1rem;
-    }
-
-    .certificate {
-        width: auto;
-        height: 331px;
-        border: 1px solid #FF9A62;
-        border-bottom-right-radius: 50px;
-        margin-left: 1rem;
-    }
-
-    .certificate svg {
-        margin-top: 40px;
-        margin-left: 50%;
-    }
-
-    .certificate .cert-txt {
-        text-align: left;
-        font-family: "Inter", sans-serif;
-        font-size: 2rem;
-        font-weight: 600;
-        margin-top: 20px;
-        margin-left: 36px;
-    }
-
-    .certificate .cert-txt-1 {
-        text-align: left;
-        font-family: "Inter", sans-serif;
-        font-size: 2rem;
-        font-weight: 300;
-        margin-top: 20px;
-        margin-left: 36px;
-    }
-
-    .gold .gold-txt {
-        text-align: left;
-        font-family: "Inter", sans-serif;
-        font-size: 2rem;
-        font-weight: 600;
-        margin-top: 20px;
-        margin-left: 36px;
-    }
-
-    .gold .gold-txt-1 {
-        text-align: left;
-        font-family: "Inter", sans-serif;
-        font-size: 2rem;
-        font-weight: 300;
-        margin-top: 20px;
-        margin-left: 36px;
-    }
-
-
-    .gold svg {
-        margin-top: 40px;
-        margin-left: 50%;
-    }
-
-    .diamond .diamond-txt {
-        text-align: left;
-        font-family: "Inter", sans-serif;
-        font-size: 2rem;
-        font-weight: 600;
-        margin-top: 20px;
-        margin-left: 36px;
-    }
-
-    .diamond .diamond-txt-1 {
-        text-align: left;
-        font-family: "Inter", sans-serif;
-        font-weight: 300;
-        font-size: 2rem;
-        margin-top: 20px;
-        margin-left: 36px;
-    }
-
-
-    .diamond svg {
-        margin-top: 40px;
-        margin-left: 50%;
-    }
-
-
-    .gold {
-        width: auto;
-        height: 331px;
-        border: 1px solid #FF9A62;
-        border-top-left-radius: 50px;
-    }
-
-    .diamond {
-        width: auto;
-        height: 331px;
-        border: 1px solid #FF9A62;
-        border-bottom-left-radius: 50px;
-    }
-
-    /* -----------------our-company-section----------------- */
-    /* -----------------join-insta-commu-section----------------- */
-    .join-instagram-comm {
-        grid-template-columns: none;
-        column-gap: 8rem;
-        margin-top: 50px;
-        justify-content: center;
-    }
-
-    .first-model {
-        margin-left: 20px;
-    }
-
-    .first-model img {
-        width: 500px;
-        height: 500px;
-        border-bottom-right-radius: 50px;
-    }
-
-    .second-model img {
-        width: 500px;
-        height: 500px;
-        border-top-left-radius: 50px;
-    }
-
-    .third-model img {
-        width: 500px;
-        height: 500px;
-        border-bottom-left-radius: 50px;
-    }
-
-    .join-insta {
-        width: 500px;
-        height: 500px;
-        background: #FDDAC6;
-        border-top-right-radius: 50px;
-    }
-
-    .join-insta svg {
-        width: 62px;
-        height: 45px;
-        margin-top: 53px;
-        margin-left: 30px;
-    }
-
-    .join-insta .jc-txt {
-        margin-left: 30px;
-        font-family: "Inter", sans-serif;
-        font-size: 2.5rem;
-        font-weight: 500;
-    }
-
-
-    /* -----------------join-insta-commu-section----------------- */
-
-
-    /* -----------------singleProductPage-section----------------- */
-
-    .productDisplay {
-        display: grid;
-        grid-template-columns: none;
-        margin-top: 1rem;
-    }
-
-    .productVariousAngles {
-        display: none;
-    }
-
-    .productVariousAngles-1 {
-        display: block;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        column-gap: 1rem;
-        margin-bottom: 2rem;
-        width: 130px;
-        height: 110px;
-        margin-left: 23%;
-        margin-right: 5%;
-        margin-top: 0;
-    }
-
-    .productVariousAngles-1 img {
-        width: 130px;
-        height: 110px;
-        border: 1px solid #C67A2F;
-        border-radius: 20px;
-    }
-
-    .productMainAngle {
-        width: auto;
-        height: 586px;
-        padding-left: 0;
-    }
-
-
-    .productMainAngle img {
-        width: auto;
-        height: 586px;
-        border: 1px solid #C67A2F;
-        border-radius: 20px;
-        margin-left: 15%;
-    }
-
-    .productDescription h3 {
-        font-family: "Inter", 'sans-serif';
-        font-size: 3rem;
-        margin-left: 2rem;
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-
-    .productDescription hr {
-        width: auto;
-        margin-left: 2rem;
-    }
-
-
-    .productDescription h4,
-    h5 {
-        font-family: "Inter", 'sans-serif';
-        font-size: 1.5rem;
-        margin-left: 2rem;
-        margin-bottom: 0;
-    }
-
-    .productDescription p {
-        font-family: "Inter", 'sans-serif';
-        font-size: 1.5rem;
-        margin-left: 2rem;
-    }
-
-    .colour-txt-cart-btn {
-        display: flex;
-        gap: 2rem;
-    }
-
-
-    .colorPicker {
-        margin-top: 0;
-        margin-left: 2rem;
-        display: flex;
-        gap: 1rem;
-    }
-
-    .colour-txt {
-        font-family: "Inter", 'sans-serif';
-        font-size: 1rem;
-        font-weight: 700;
-        margin-left: 2rem;
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-
-
-    .orangeCircle {
-        width: 15px;
-        height: 16px;
-        background-color: #FF9A62;
-        border-radius: 50%;
-        cursor: pointer;
-    }
-
-    .whiteCircle {
-        width: 15px;
-        height: 16px;
-        background-color: #DEDEDE;
-        border-radius: 50%;
-        cursor: pointer;
-    }
-
-    .pinkCircle {
-        width: 15px;
-        height: 16px;
-        background-color: #FEBFBF;
-        border-radius: 50%;
-        cursor: pointer;
-    }
-
-
-    .cart-Button {
-        width: 126px;
-        height: 48px;
-        background-color: #163234;
-        color: white;
-        padding: 1rem;
-        border: none;
-        border-radius: 8px;
-    }
-
-    .cart-Button:hover {
-        background-color: #31676b;
-        color: white;
-        cursor: pointer;
-    }
-
-
-    .RingSize p {
-        font-family: "Inter", sans-serif;
-        font-size: 1rem;
-    }
-
-    #ring-sizes {
-        width: 280px;
-        height: 60px;
-        padding: 10px;
-        border: white;
-        border-radius: 8px;
-        background: white;
-        margin-left: 1rem;
-        box-shadow: 1px 0 10px 1px #c6c6c6;
-        font-family: "Inter", sans-serif;
-        font-size: 1rem;
-        color: #666666;
-
-    }
-
-    /* -----------------singleProductPage-section----------------- */
-
-
-
-
-
-    /* -----------------footer-section----------------- */
-    .footer {
-        width: auto;
-        height: 100vh;
-        background: #163234;
-        margin-top: 50px;
-        display: grid;
-        grid-template-columns: none;
-        grid-template-rows: 0fr 0fr 0fr 0fr 0fr;
-        justify-content: center;
-        row-gap: 2rem;
-    }
-
-    .footer h3 {
-        font-family: "Inter", sans-serif;
-        color: #C5AD9C;
-        font-size: 0.6rem;
-        margin-left: 30px;
-    }
-
-    .categories,
-    .contact-us,
-    .Payments,
-    .legalEssentials,
-    .follow-us {
-        margin-left: 30px;
-    }
-
-    .categories h4 {
-        font-family: "Inter", sans-serif;
-        font-size: 1.5rem;
-        text-align: center;
-        color: #C67A2F;
-    }
-
-    .categories p {
-        font-family: "Inter", sans-serif;
-        font-size: 1rem;
-        text-align: center;
-        color: #FFD6C0;
-    }
-
-    .contact-us h4 {
-        font-family: "Inter", sans-serif;
-        font-size: 1.5rem;
-        text-align: center;
-        color: #C67A2F;
-    }
-
-    .contact-us p {
-        font-family: "Inter", sans-serif;
-        font-size: 1rem;
-        text-align: center;
-        color: #FFD6C0;
-    }
-
-    .Payments h4 {
-        font-family: "Inter", sans-serif;
-        font-size: 1.5rem;
-        text-align: center;
-        color: #C67A2F;
-    }
-
-    .Payments p {
-        font-family: "Inter", sans-serif;
-        font-size: 1rem;
-        text-align: center;
-        color: #FFD6C0;
-    }
-
-    .legalEssentials h4 {
-        font-family: "Inter", sans-serif;
-        font-size: 1.5rem;
-        text-align: center;
-        color: #C67A2F;
-    }
-
-    .legalEssentials p {
-        font-family: "Inter", sans-serif;
-        font-size: 1rem;
-        text-align: center;
-        color: #FFD6C0;
-    }
-
-    .follow-us h4 {
-        font-family: "Inter", sans-serif;
-        font-size: 1.5rem;
-        text-align: center;
-        color: #C67A2F;
-    }
-
-    .follow-us p {
-        font-family: "Inter", sans-serif;
-        font-size: 1rem;
-        text-align: center;
-        color: #FFD6C0;
-    }
-
-    .footer h3 {
-        font-size: 1rem;
-        text-align: center;
-        font-weight: 400;
     }
 }
