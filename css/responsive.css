@@ -524,7 +524,7 @@
         margin-bottom: 2rem;
         width: 448px;
         height: 110px;
-        margin-left: auto;
+        margin-left: 2rem;
         margin-right: auto;
         margin-top: 0;
     }
@@ -540,6 +540,7 @@
         width: auto;
         height: auto;
         padding-left: 0;
+        margin-left: 2rem;
     }
 
 
