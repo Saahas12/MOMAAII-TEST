@@ -348,7 +348,7 @@
 
 
     /* -----------------our-company-section----------------- */
-    .values {
+    /* .values {
         display: grid;
         grid-template-rows: 1fr 1fr 1fr;
         grid-template-columns: none;
@@ -464,9 +464,81 @@
         height: 331px;
         border: 1px solid #FF9A62;
         border-bottom-left-radius: 50px;
-    }
+    } */
 
     /* -----------------our-company-section----------------- */
+
+    /*------------------lifetime-guarntees-section------------*/
+
+    .lifetime {
+        width: auto;
+        height: auto;
+        background: #1E3231;
+        margin-top: 1rem;
+    }
+
+    .lifetime .life-time-title{
+        padding: 1rem;
+    }
+
+    .lifetime .life-time-title h3{
+        font-family: "Newsreader", serif;
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: white;
+        text-align: center;
+    }
+
+    .life-guarntees-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 37%;
+        margin-right: 37%;
+    }
+
+    .source-made {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .source-made .source-icon{
+        margin-top: 0;
+    }
+
+    .source-title{
+        margin-left: 0;
+    }
+
+    .source-made .source-img img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .source-made .source-icon img{
+        margin-left: 34px;
+        width: 25px;
+        height: 25px;
+    }
+
+    .source-title h4{
+        font-family: "Newsreader", sans-serif;
+        font-size: 1rem;
+        color: white;
+        font-weight: 400;
+        margin-top: 18px;
+        margin-bottom: 5px;
+    }
+    
+    
+    .source-title p{
+        font-family: "Inter", sans-serif;
+        font-size: 10px;
+        font-weight: 200;
+        color: white;
+        margin-top: 0;
+    }
+
+    /*------------------lifetime-guarntees-section------------*/
     /* -----------------join-insta-commu-section----------------- */
     .join-instagram-comm {
         grid-template-columns: none;
@@ -529,10 +601,17 @@
         flex-direction: column;
     }
 
+    .inside-hori-grid{
+        display: flex;
+        flex-direction: column;
+    }
+
+
     .sidebar {
         width: 100%;
         margin-left: 0;
         margin-top: 1rem;
+        padding-bottom: 2rem;
         border-radius: 0;
         height: auto;
     }
@@ -550,7 +629,7 @@
 
     .filter-icons {
         margin-top: 1rem;
-        margin-left: 2rem;
+        margin-left: 3rem;
         margin-right: auto;
     }
 
@@ -1430,7 +1509,7 @@
     .legalEssentials,
     .follow-us {
         margin-top: 10px;
-        margin-left: 30px;
+        margin-left: 3px;
     }
 
     .categories h4 {
@@ -1525,7 +1604,7 @@
     /* -----------------top-navbar--------------------- */
 
 
-    .top-header{
+    .top-header {
         display: none;
     }
 
@@ -1862,7 +1941,7 @@
 
 
     /* -----------------our-company-section----------------- */
-    .values {
+    /* .values {
         display: grid;
         grid-template-rows: 1fr 1fr 1fr;
         grid-template-columns: none;
@@ -1978,9 +2057,84 @@
         height: 331px;
         border: 1px solid #FF9A62;
         border-bottom-left-radius: 50px;
-    }
+    } */
 
     /* -----------------our-company-section----------------- */
+
+
+
+    /*------------------lifetime-guarntees-section------------*/
+
+    .lifetime {
+        width: auto;
+        height: 450px;
+        background: #1E3231;
+        margin-top: 1rem;
+    }
+
+    .lifetime .life-time-title{
+        padding: 1rem;
+    }
+
+    .lifetime .life-time-title h3{
+        font-family: "Newsreader", serif;
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: white;
+        text-align: center;
+    }
+
+    .life-guarntees-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 3rem;
+        margin-right: 2rem;
+    }
+
+    .source-made {
+        display: flex;
+        margin-top: 0.5rem;
+    }
+
+    .source-made .source-icon{
+        margin-top: 18px;
+    }
+
+    .source-title{
+        margin-left: 1rem
+    }
+
+    .source-made .source-img img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .source-made .source-icon img{
+        margin-left: 1rem;
+        width: 25px;
+        height: 25px;
+    }
+
+    .source-title h4{
+        font-family: "Newsreader", sans-serif;
+        font-size: 1rem;
+        color: white;
+        font-weight: 400;
+        margin-top: 18px;
+        margin-bottom: 5px;
+    }
+    
+    
+    .source-title p{
+        font-family: "Inter", sans-serif;
+        font-size: 10px;
+        font-weight: 200;
+        color: white;
+        margin-top: 0;
+    }
+
+    /*------------------lifetime-guarntees-section------------*/
+
     /* -----------------join-insta-commu-section----------------- */
     .join-instagram-comm {
         grid-template-columns: none;
@@ -2047,6 +2201,7 @@
         border-radius: 50%;
         cursor: pointer;
     }
+
 
     .range {
         display: flex;

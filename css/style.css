@@ -351,7 +351,7 @@ a {
 
 
 /* -----------------our-company-section----------------- */
-
+/* 
 .values {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -463,9 +463,81 @@ a {
     height: 331px;
     border: 1px solid #FF9A62;
     border-bottom-left-radius: 50px;
-}
+} */
 
 /* -----------------our-company-section----------------- */
+
+/* -------------------lifetime-section----------------- */
+.lifetime{
+    width: auto;
+    height: 600px;
+    background: #1E3231;
+    margin-top: 50px;
+}
+
+.lifetime .life-time-title{
+    padding: 2rem;
+}
+
+.lifetime .life-time-title h3{
+    font-family: "Newsreader", serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+.life-guarntees-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10rem;
+    margin-right: auto;
+}
+
+.source-made{
+    display: flex;
+}
+
+.source-made .source-img img{
+    width: 200px;
+    height: 200px;
+}
+
+.source-made .source-icon{
+    margin-top: 34px;
+}
+
+.source-made .source-icon img{
+    margin-left: 34px;
+    width: 30px;
+    height: 30px;
+}
+
+.source-title{
+    margin-left: 34px;
+}
+
+.source-title h4{
+    font-family: "Newsreader", sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 400;
+    margin-top: 18px;
+    margin-bottom: 5px;
+}
+
+
+.source-title p{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    color: white;
+    margin-top: 0;
+}
+
+
+/* -------------------lifetime-section----------------- */
+
 
 
 
