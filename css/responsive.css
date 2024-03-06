@@ -472,7 +472,7 @@
 
     .lifetime {
         width: auto;
-        height: auto;
+        height: 574px;
         background: #1E3231;
         margin-top: 1rem;
     }
@@ -483,7 +483,7 @@
 
     .lifetime .life-time-title h3{
         font-family: "Newsreader", serif;
-        font-size: 1.5rem;
+        font-size: 30px;
         font-weight: 400;
         color: white;
         text-align: center;
@@ -491,9 +491,9 @@
 
     .life-guarntees-grid{
         display: grid;
-        grid-template-columns: 1fr;
-        margin-left: 37%;
-        margin-right: 37%;
+        grid-template-columns: 1fr 1fr; 
+        margin-left: 15%;
+        margin-right: 0%;
     }
 
     .source-made {
@@ -522,7 +522,7 @@
 
     .source-title h4{
         font-family: "Newsreader", sans-serif;
-        font-size: 1rem;
+        font-size: 0.9rem;
         color: white;
         font-weight: 400;
         margin-top: 18px;
@@ -532,7 +532,8 @@
     
     .source-title p{
         font-family: "Inter", sans-serif;
-        font-size: 10px;
+        text-align: justify;
+        font-size: 0.5rem;
         font-weight: 200;
         color: white;
         margin-top: 0;
