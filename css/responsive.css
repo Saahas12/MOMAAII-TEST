@@ -615,9 +615,10 @@
         padding-bottom: 2rem;
         border-radius: 0;
         height: auto;
+        display: none;
     }
 
-    .main-content {
+    #main-content {
         width: 100%;
         padding: 10px;
         grid-template-columns: 1fr;
@@ -2224,9 +2225,10 @@
         border-radius: 0%;
         padding-top: 0;
         padding-bottom: 1rem;
+        display: none;
     }
 
-    .main-content {
+    #main-content {
         width: 100%;
         padding: 10px;
         grid-template-columns: repeat(2, 1fr);
@@ -3834,9 +3836,10 @@
         width: 100vw;
         height: auto;
         margin: 2rem auto;
+        display: none;
     }
 
-    .main-content {
+    #main-content {
         width: 100%;
         padding: 10px;
         grid-template-columns: repeat(3, 1fr);
@@ -4493,9 +4496,9 @@
     /* -----------------footer-section----------------- */
     .footer {
         width: auto;
-        height: auto;
+        height: 100vh;
         background: #1E3231;
-        margin-top: 325px;
+        margin-top: 1rem;
         display: grid;
         grid-template-columns: none;
         grid-template-rows: 0fr 0fr 0fr 0fr 0fr;

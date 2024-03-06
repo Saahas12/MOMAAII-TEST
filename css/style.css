@@ -1101,7 +1101,7 @@ h5 {
     margin-left: 30px;
 }
 
-.main-content {
+#main-content {
     width: 70%;
     padding: 20px;
     display: grid;
