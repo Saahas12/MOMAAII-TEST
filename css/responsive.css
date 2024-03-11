@@ -12,6 +12,13 @@
         display: none;
     }
 
+    #myVideo {
+        margin-top: 1rem;
+        width: 100%; 
+        height: auto;
+        object-fit: cover;
+    }
+
     /* -----------------top-navbar--------------------- */
 
     /* -----------------top-second-navbar--------------------- */
@@ -541,7 +548,7 @@
 
     /*------------------lifetime-guarntees-section------------*/
     /* -----------------join-insta-commu-section----------------- */
-    .join-instagram-comm {
+    /* .join-instagram-comm {
         grid-template-columns: none;
         column-gap: 8rem;
         margin-top: 50px;
@@ -592,10 +599,119 @@
         font-family: "Inter", sans-serif;
         font-size: 1rem;
         font-weight: 500;
-    }
+    } */
 
 
     /* -----------------join-insta-commu-section----------------- */
+
+
+    /* -----------------temp-section----------------- */
+.temp-section{
+    width: auto;
+    height: auto;
+    background: #F3DECE;
+    margin-top: 1rem;
+}
+.temp-section h5{
+    font-family: "Newsreader", serif;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.temp-section .left-hand-img-sec img{
+    width: 100%;
+    height: 200px;
+    padding-left: 0;
+}
+
+.left-side{
+    display: grid;
+    grid-template-columns: 0fr;
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: center;
+}
+
+
+.left-hand-img-sec h5{
+    font-family: "Newsreader", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 0;
+    padding-left: 0;
+
+}
+
+.left-hand-img-sec p{
+    font-family: "Newsreader", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0;
+    padding-left: 0;
+}
+
+.right-hand-img-2{
+    margin-top: 2.9rem;
+}
+
+.right-hand-img-1 img{
+    width: auto;
+    height: 200px;
+    padding-left: 0;
+}
+
+.right-hand-img-2 img{
+    width: 100%;
+    height: 200px;
+    padding-left: 0;
+}
+
+.right-hand-img-1 h5{
+    font-family: "Newsreader", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.right-hand-img-2 h5{
+    font-family: "Newsreader", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.right-hand-img-1 p{
+    font-family: "Newsreader", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    padding-left: 0;
+    margin-top: 0;
+
+}
+
+.right-hand-img-2 p{
+    font-family: "Newsreader", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    padding-left: 0;
+    margin-top: 0;
+
+}
+/* -----------------temp-section----------------- */
+
+    
 
     /* ------------------RingsProductCollection-section--------- */
     .container {
@@ -2272,7 +2388,7 @@
     /*------------------lifetime-guarntees-section------------*/
 
     /* -----------------join-insta-commu-section----------------- */
-    .join-instagram-comm {
+    /* .join-instagram-comm {
         grid-template-columns: none;
         column-gap: 8rem;
         margin-top: 50px;
@@ -2320,10 +2436,117 @@
         font-family: "Inter", sans-serif;
         font-size: 3rem;
         font-weight: 500;
-    }
+    } */
 
 
     /* -----------------join-insta-commu-section----------------- */
+
+        /* -----------------temp-section----------------- */
+.temp-section{
+    width: auto;
+    height: auto;
+    background: #F3DECE;
+    margin-top: 1rem;
+}
+.temp-section h5{
+    font-family: "Newsreader", serif;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.temp-section .left-hand-img-sec img{
+    width: 100%;
+    height: 200px;
+    padding-left: 0;
+}
+
+.left-side{
+    display: grid;
+    grid-template-columns: 0fr;
+    margin-left: 3rem;
+    margin-right: 0;
+    justify-content: center;
+}
+
+
+.left-hand-img-sec h5{
+    font-family: "Newsreader", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 0;
+    padding-left: 0;
+
+}
+
+.left-hand-img-sec p{
+    font-family: "Newsreader", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0;
+    padding-left: 0;
+}
+
+.right-hand-img-2{
+    margin-top: 2.9rem;
+}
+
+.right-hand-img-1 img{
+    width: auto;
+    height: 200px;
+    padding-left: 0;
+}
+
+.right-hand-img-2 img{
+    width: 100%;
+    height: 200px;
+    padding-left: 0;
+}
+
+.right-hand-img-1 h5{
+    font-family: "Newsreader", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.right-hand-img-2 h5{
+    font-family: "Newsreader", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.right-hand-img-1 p{
+    font-family: "Newsreader", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+    padding-left: 0;
+    margin-top: 0;
+
+}
+
+.right-hand-img-2 p{
+    font-family: "Newsreader", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+    padding-left: 0;
+    margin-top: 0;
+
+}
+/* -----------------temp-section----------------- */
+
 
     /*------------------RingsCollectionProducts-------------------*/
     .container {
