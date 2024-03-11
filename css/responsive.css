@@ -33,7 +33,7 @@
 
     .navbar nav {
         flex-direction: column;
-        margin-top: 7rem;
+        margin-top: 0;
 
     }
 
@@ -41,12 +41,13 @@
         display: none;
     }
 
-    .navbar .logo {
-        display: none;
+    .navbar .logo img {
+        width: 55px;
+        height: 55px;
     }
 
     .navbar .logo-1 img {
-        display: block;
+        display: none;
     }
 
     .navbar nav a {
@@ -1873,15 +1874,16 @@
 
     .navbar nav {
         flex-direction: column;
-        margin-top: 7rem;
+        margin-top: 0;
     }
 
-    .navbar .logo {
-        display: none;
+    .navbar .logo img {
+        width: 60px;
+        height: 60px;
     }
 
     .navbar .logo-1 img {
-        display: block;
+        display: none;
     }
 
     .navbar #my-Links {
@@ -3729,12 +3731,13 @@
         flex-direction: column;
     }
 
-    .navbar .logo {
-        display: none;
+    .navbar .logo img {
+        width: 60px;
+        height: 60px;
     }
 
     .navbar .logo-1 {
-        display: block;
+        display: none;
     }
 
     .navbar nav a {
