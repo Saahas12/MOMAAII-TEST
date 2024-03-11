@@ -21,13 +21,21 @@ a {
     padding: 1px;
     align-items: center;
     justify-content: center;
+
+}
+/* #myVideo {
+    width: auto;
+    height: 50%;
+    object-fit: contain;
+} */
+
+#myVideo {
+    margin-top: 1rem;
+    width: 100%; 
+    height: 100vh;
+    object-fit: cover;
 }
 
-/* .top-header .top-nav {
-    display: flex;
-    column-gap: 14rem;
-    list-style: none;
-} */
 
 
 .top-header h5 {
@@ -35,8 +43,11 @@ a {
     font-size: 14px;
     font-weight: 400;
     text-align: center;
-
 }
+
+/* .top-header h5{
+    transform: ;
+} */
 
 /* -----------------top-navbar--------------------- */
 
@@ -542,7 +553,7 @@ a {
 
 
 /* -----------------join-our-community-section----------------- */
-.join-instagram-comm {
+/* .join-instagram-comm {
     display: grid;
     grid-template-columns: 0fr 0fr 0fr 0fr;
     column-gap: 8rem;
@@ -588,9 +599,111 @@ a {
     font-family: "Inter", sans-serif;
     font-size: 1rem;
     font-weight: 500;
-}
+} */
+
 
 /* -----------------join-our-community-section----------------- */
+/* -----------------temp-section----------------- */
+.temp-section{
+    width: auto;
+    height: 800px;
+    background: #F3DECE;
+    margin-top: 1rem;
+}
+.temp-section h5{
+    font-family: "Newsreader", serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    padding-top: 2rem;
+}
+.temp-section .left-hand-img-sec img{
+    width: auto;
+    height: 400px;
+    padding-left: 5rem;
+}
+
+.left-side{
+    display: grid;
+    grid-template-columns: 0fr 0fr;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+.left-hand-img-sec h5{
+    font-family: "Newsreader", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 3rem;
+    margin-top: 0;
+}
+
+.left-hand-img-sec p{
+    font-family: "Newsreader", sans-serif;
+    font-size: 0.6rem;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 5rem;
+    margin-top: 0;
+
+}
+
+.right-hand-img-2{
+    margin-top: 2.9rem;
+}
+
+.right-hand-img-1 img{
+    width: auto;
+    height: 200px;
+    padding-left: 5rem;
+}
+
+.right-hand-img-2 img{
+    width: auto;
+    height: 200px;
+    padding-left: 5rem;
+}
+
+.right-hand-img-1 h5{
+    font-family: "Newsreader", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 3rem;
+    margin-top: 0;
+}
+
+.right-hand-img-2 h5{
+    font-family: "Newsreader", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 3rem;
+    margin-top: 0;
+}
+
+.right-hand-img-1 p{
+    font-family: "Newsreader", sans-serif;
+    font-size: 0.6rem;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 5rem;
+    margin-top: 0;
+
+}
+
+.right-hand-img-2 p{
+    font-family: "Newsreader", sans-serif;
+    font-size: 0.6rem;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 5rem;
+    margin-top: 0;
+
+}
+/* -----------------temp-section----------------- */
 
 /* -----------------footer-section----------------- */
 
