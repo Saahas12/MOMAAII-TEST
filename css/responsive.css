@@ -19,6 +19,31 @@
         object-fit: cover;
     }
 
+    .short-banner{
+        width: auto;
+        height: 80px;
+        display: flex;
+        background: #F3DECE;
+        color: #000;
+        justify-content: space-between;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        align-items: center;
+        margin-top: 0;
+    }
+    
+    .short-banner .shortBanner-right-txt{
+        font-family: "Inter", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        padding-left: 1rem;
+    }
+    
+    .short-banner .shop-nowBtn{
+        padding-right: 1rem;
+    }
+
     /* -----------------top-navbar--------------------- */
 
     /* -----------------top-second-navbar--------------------- */
@@ -228,11 +253,89 @@
     /* -----------------fefatured-products-section----------------- */
     .featured-products {
         width: auto;
-        height: auto;
+        height: 1430px;
         background: #F3DECE;
     }
 
-    .fp-txt {
+    .everybody-diamonds{
+        width: 304px;
+        height: 200px;
+        background-color: #1E3231;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .everybody-diamonds .evd-txts h3{
+        font-family: "Newsreader", serif;
+        font-size: 1rem;
+        color: white;
+        font-weight: 400;
+        padding-top: 0.5rem;
+        padding-bottom: 0;
+        padding-left: 0.5rem;
+    }
+    
+    .everybody-diamonds .evd-txts .evd-txt-h5{
+        font-family: "Inter", serif;
+        font-size: 0.8rem;
+        color: white;
+        font-weight: 400;
+        margin-left: 1rem;
+    }
+    
+    .categories-boxes{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 0;
+        margin-top: 3rem;    
+    }
+
+    .categories-boxes .ringscat, .braceletscat, .earringscat, .necklacescat{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .categories-boxes .ringscat img{
+        width: auto;
+        height: auto;
+    }
+
+    .categories-boxes .braceletscat img{
+        width: auto;
+        height: auto;
+    }
+
+    .categories-boxes .earringscat img{
+        width: auto;
+        height: auto;
+    }
+
+    .categories-boxes .necklacescat img{
+        width: auto;
+        height: auto;
+    }
+    
+    .shp-now{
+        width: 120px;
+        height: 49px;
+        padding: 10px;
+        background: #C97F5F;
+        border: none;
+        margin-left: 1rem;
+        color: white;
+    }
+    
+    .categories-boxes p{
+        font-family: "Newsreader", serif;
+        font-size: 1rem;
+        color: black;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    /* .fp-txt {
         font-family: "Inter", sans-serif;
         font-size: 1.5rem;
         text-align: center;
@@ -263,10 +366,10 @@
     .cart-price {
         font-family: "Inter", sans-serif;
         font-size: 1rem;
-    }
+    } */
 
 
-    .SB-txt {
+    /* .SB-txt {
         font-family: "Newsreader", serif;
         font-size: 2rem;
         font-weight: 400;
@@ -346,7 +449,7 @@
     .card-img-4 .fp-img-4 {
         width: 300px;
         height: 300px;
-    }
+    } */
 
 
 
@@ -2068,11 +2171,89 @@
     /* -----------------fefatured-products-section----------------- */
     .featured-products {
         width: auto;
-        height: auto;
+        height: 1500px;
         background: #F3DECE;
     }
 
-    .fp-txt {
+    .everybody-diamonds{
+        width: 304px;
+        height: 200px;
+        background-color: #1E3231;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .everybody-diamonds .evd-txts h3{
+        font-family: "Newsreader", serif;
+        font-size: 1rem;
+        color: white;
+        font-weight: 400;
+        padding-top: 0.5rem;
+        padding-bottom: 0;
+        padding-left: 0.5rem;
+    }
+    
+    .everybody-diamonds .evd-txts .evd-txt-h5{
+        font-family: "Inter", serif;
+        font-size: 0.8rem;
+        color: white;
+        font-weight: 400;
+        margin-left: 1rem;
+    }
+    
+    .categories-boxes{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 0;
+        margin-top: 3rem;    
+    }
+
+    .categories-boxes .ringscat, .braceletscat, .earringscat, .necklacescat{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .categories-boxes .ringscat img{
+        width: auto;
+        height: auto;
+    }
+
+    .categories-boxes .braceletscat img{
+        width: auto;
+        height: auto;
+    }
+
+    .categories-boxes .earringscat img{
+        width: auto;
+        height: auto;
+    }
+
+    .categories-boxes .necklacescat img{
+        width: auto;
+        height: auto;
+    }
+    
+    .shp-now{
+        width: 120px;
+        height: 49px;
+        padding: 10px;
+        background: #C97F5F;
+        border: none;
+        margin-left: 1rem;
+        color: white;
+    }
+    
+    .categories-boxes p{
+        font-family: "Newsreader", serif;
+        font-size: 1rem;
+        color: black;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    /* .fp-txt {
         font-family: "Inter", sans-serif;
         font-size: 2.5rem;
         text-align: center;
@@ -2103,19 +2284,19 @@
     .cart-price {
         font-family: "Inter", sans-serif;
         font-size: 2rem;
-    }
+    } */
 
 
     .SB-txt {
         font-family: "Newsreader", serif;
-        font-size: 4rem;
+        font-size: 3rem;
         font-weight: 400;
         text-align: center;
         color: #1E3231;
         padding-top: 1rem;
     }
 
-    .multiple-products {
+    /* .multiple-products {
         grid-template-columns: min-content;
         column-gap: 3.5rem;
         justify-content: center;
@@ -2185,7 +2366,7 @@
     .card-img-4 .fp-img-4 {
         width: 300px;
         height: 300px;
-    }
+    } */
 
 
 
@@ -3853,11 +4034,89 @@
     /* -----------------fefatured-products-section----------------- */
     .featured-products {
         width: auto;
-        height: auto;
+        height: 1500px;
         background: #F3DECE;
     }
 
-    .fp-txt {
+    .everybody-diamonds{
+        width: 304px;
+        height: 200px;
+        background-color: #1E3231;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .everybody-diamonds .evd-txts h3{
+        font-family: "Newsreader", serif;
+        font-size: 1rem;
+        color: white;
+        font-weight: 400;
+        padding-top: 0.5rem;
+        padding-bottom: 0;
+        padding-left: 0.5rem;
+    }
+    
+    .everybody-diamonds .evd-txts .evd-txt-h5{
+        font-family: "Inter", serif;
+        font-size: 0.8rem;
+        color: white;
+        font-weight: 400;
+        margin-left: 1rem;
+    }
+    
+    .categories-boxes{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 0;
+        margin-top: 3rem;    
+    }
+
+    .categories-boxes .ringscat, .braceletscat, .earringscat, .necklacescat{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .categories-boxes .ringscat img{
+        width: auto;
+        height: auto;
+    }
+
+    .categories-boxes .braceletscat img{
+        width: auto;
+        height: auto;
+    }
+
+    .categories-boxes .earringscat img{
+        width: auto;
+        height: auto;
+    }
+
+    .categories-boxes .necklacescat img{
+        width: auto;
+        height: auto;
+    }
+    
+    .shp-now{
+        width: 120px;
+        height: 49px;
+        padding: 10px;
+        background: #C97F5F;
+        border: none;
+        margin-left: 1rem;
+        color: white;
+    }
+    
+    .categories-boxes p{
+        font-family: "Newsreader", serif;
+        font-size: 1rem;
+        color: black;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    /* .fp-txt {
         font-family: "Inter", sans-serif;
         font-size: 2.5rem;
         text-align: center;
@@ -3888,19 +4147,19 @@
     .cart-price {
         font-family: "Inter", sans-serif;
         font-size: 2rem;
-    }
+    } */
 
 
     .SB-txt {
         font-family: "Newsreader", serif;
-        font-size: 4rem;
+        font-size: 3rem;
         font-weight: 400;
         text-align: center;
         color: #1E3231;
         padding-top: 1rem;
     }
 
-    .multiple-products {
+    /* .multiple-products {
         grid-template-columns: min-content;
         column-gap: 3.5rem;
         justify-content: center;
@@ -3970,7 +4229,9 @@
     .card-img-4 .fp-img-4 {
         width: 300px;
         height: 300px;
-    }
+    } */
+
+
 
 
 

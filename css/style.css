@@ -32,8 +32,33 @@ a {
 #myVideo {
     margin-top: 1rem;
     width: 100%; 
-    height: 100vh;
+    height: 89vh;
     object-fit: cover;
+}
+
+.short-banner{
+    width: auto;
+    height: 80px;
+    display: flex;
+    background: #F3DECE;
+    color: #000;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    align-items: center;
+    margin-top: 0;
+}
+
+.short-banner .shortBanner-right-txt{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding-left: 3rem;
+}
+
+.short-banner .shop-nowBtn{
+    padding-right: 3rem;
 }
 
 
@@ -255,17 +280,70 @@ a {
 
 .featured-products {
     width: auto;
-    height: 600px;
+    height: 500px;
     background: #F3DECE;
+    margin-bottom: 0rem;
 }
 
-.fp-txt {
+.everybody-diamonds{
+    width: 300px;
+    height: 280px;
+    background-color: #1E3231;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 1.5rem;
+}
+
+.everybody-diamonds .evd-txts h3{
+    font-family: "Newsreader", serif;
+    font-size: 2rem;
+    color: white;
+    font-weight: 400;
+    padding-top: 1rem;
+    padding-bottom: 0;
+    padding-left: 1rem;
+}
+
+.everybody-diamonds .evd-txts .evd-txt-h5{
+    font-family: "Inter", serif;
+    font-size: 0.9rem;
+    color: white;
+    font-weight: 400;
+    margin-left: 1rem;
+}
+
+.categories-boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 1rem;
+    margin-left: 10rem;
+}
+
+.shp-now{
+    width: 120px;
+    height: 49px;
+    padding: 10px;
+    background: #C97F5F;
+    border: none;
+    margin-left: 1rem;
+    color: white;
+}
+
+.categories-boxes p{
+    font-family: "Newsreader", serif;
+    font-size: 1rem;
+    color: black;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* .fp-txt {
     font-family: "Inter", sans-serif;
     font-size: 1rem;
     text-align: center;
     color: #C67A2F;
     padding-top: 3.5rem;
-}
+} */
 
 .SB-txt {
     font-family: "Newsreader", serif;
@@ -276,18 +354,18 @@ a {
     padding-top: 1rem;
 }
 
-.multiple-products {
+/* .multiple-products {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 3.5rem;
     margin-left: 5rem;
 }
 
-/* .card-img-1{
+.card-img-1{
     margin-left: 3rem;
 } */
 
-.txt-cart,
+/* .txt-cart,
 .txt-cart-1,
 .txt-cart-2,
 .txt-cart-3 {
@@ -353,7 +431,7 @@ a {
 .card-img-4 .fp-img-4 {
     width: 217px;
     height: 192px;
-}
+} */
 
 
 /* -----------------featured-products-section----------------- */
@@ -618,7 +696,7 @@ a {
     padding-top: 2rem;
 }
 .temp-section .left-hand-img-sec img{
-    width: 300px;
+    width: auto;
     height: 400px;
     padding-left: 5rem;
 }
@@ -626,7 +704,7 @@ a {
 .left-side{
     display: grid;
     grid-template-columns: 0fr 0fr;
-    margin-left: 20%;
+    margin-left: 10%;
     margin-right: 20%;
 }
 
