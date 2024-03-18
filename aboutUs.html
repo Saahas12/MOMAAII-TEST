@@ -6,6 +6,8 @@
         <title>Momaai Frontend</title>
         <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="./css/responsive.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     </head>
     
 <body>
@@ -40,11 +42,15 @@
         <h3>ABOUT US</h3>
 
         <div class="about-us-imgs">
-            <div class="about-left-img">
+            <div class="about-left-img" data-aos="flip-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+            data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
+            data-aos-anchor-placement="top-center">
                 <img src="./Frontend/assets/about-us-img-1.png" alt="about-left-img">
             </div>
     
-            <div class="about-right-img">
+            <div class="about-right-img" data-aos="flip-down" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+            data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
+            data-aos-anchor-placement="top-center">
                 <img src="./Frontend/assets/about-us-img-2.png" alt="about-right-img">
             </div>
         </div>
@@ -54,12 +60,16 @@
             <h3>Lorem ipsum dolor sit amet consectetur.</h3>
             <p>Lorem ipsum dolor sit amet consectetur. Egestas eget id tellus leo facilisi eget arcu id. Lacus ultricies ac faucibus<br/> dictum ut orci dictum ac. Sed sed quam velit orci. </p>
 
-            <div class="left-img-with-content">
+            <div class="left-img-with-content" data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+            data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
+            data-aos-anchor-placement="top-center">
                 <div class="left-content-img">
                     <img src="./Frontend/assets/left-content-img-1.png" alt="left-content-img">
                 </div>
 
-                <div class="right-content">
+                <div class="right-content" data-aos="fade-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+                data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
+                data-aos-anchor-placement="top-center">
                     <h3>LOREM ISPUM</h3>
                     <p>Lorem ipsum dolor sit amet consectetur. Egestas eget id tellus leo<br/> facilisi eget arcu id. Lacus ultricies ac faucibus dictum ut orci dictum<br/> ac. Sed sed quam velit orci. </p>
 
@@ -76,11 +86,15 @@
             </div>
 
             <div class="left-img-with-content-2">
-                <div class="left-content-img-2">
+                <div class="left-content-img-2"  data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+                data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
+                data-aos-anchor-placement="top-center">
                     <img src="./Frontend/assets/left-content-img-2.png" alt="left-content-img">
                 </div>
 
-                <div class="right-content-2">
+                <div class="right-content-2"  data-aos="fade-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+                data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
+                data-aos-anchor-placement="top-center">
                     <h3>LOREM ISPUM</h3>
                     <p>Lorem ipsum dolor sit amet consectetur. Egestas eget id tellus leo<br/> facilisi eget arcu id. Lacus ultricies ac faucibus dictum ut orci dictum<br/> ac. Sed sed quam velit orci. </p>
 
@@ -90,12 +104,16 @@
             </div>
 
             <div class="right-img-with-content">
-                <div class="right-content-2">
+                <div class="right-content-2"  data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+                data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
+                data-aos-anchor-placement="top-center"> 
                     <h3>LOREM ISPUM</h3>
                     <p>Lorem ipsum dolor sit amet consectetur. Egestas eget id tellus leo<br/> facilisi eget arcu id. Lacus ultricies ac faucibus dictum ut orci dictum<br/> ac. Sed sed quam velit orci. </p>
                 </div>
 
-                <div class="right-content-img">
+                <div class="right-content-img"  data-aos="fade-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+                data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
+                data-aos-anchor-placement="top-center">
                     <img src="./Frontend/assets/right-img-content.png" alt="right-content-img">
                 </div>
             </div>
@@ -133,5 +151,9 @@
         <h3>COPYRIGHT 2024 by LOGO. ALL RIGHTS RESERVED.</h3>
     </footer>
     <script src="./Frontend/js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
