@@ -275,6 +275,7 @@
         padding-top: 0.5rem;
         padding-bottom: 0;
         padding-left: 0.5rem;
+        text-align: center;
     }
     
     .everybody-diamonds .evd-txts .evd-txt-h5{
@@ -283,6 +284,8 @@
         color: white;
         font-weight: 400;
         margin-left: 1rem;
+        text-align: center;
+
     }
     
     .categories-boxes{
@@ -323,7 +326,7 @@
         padding: 10px;
         background: #C97F5F;
         border: none;
-        margin-left: 1rem;
+        margin-left: 6rem;
         color: white;
     }
     
@@ -1738,6 +1741,8 @@
         font-size: 1rem;
         font-weight: 400;
         text-align: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
     
     .left-img-with-content,.left-img-with-content-2{
@@ -1783,7 +1788,8 @@
         font-size: 1rem;
         font-weight: 400;
         text-align: left;
-        margin-left: 1.5rem;
+        padding-left: 1.5rem;
+        padding-right: 1rem;
     }
     
     .left-img-with-content-2 .right-content-2 p{
@@ -4081,7 +4087,7 @@
     .categories-boxes .ringscat img{
         width: auto;
         height: auto;
-    }
+    } 
 
     .categories-boxes .braceletscat img{
         width: auto;
