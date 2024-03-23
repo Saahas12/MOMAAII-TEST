@@ -122,6 +122,41 @@
         padding-top: -1rem;
     }
 
+    .navbar nav #main-ul {
+        margin-top: 0.5rem;
+    }
+
+    .navbar nav .sub-ul {
+        position: static;
+        opacity: 1;
+        display: none;
+        margin-top: 0;
+        padding: 0;
+        background-color: transparent;
+        box-shadow: none;
+        border-radius: 0;
+    }
+
+    .navbar nav .sub-ul.visible {
+        display: block;
+    }
+
+    .navbar nav #main-ul li:hover .sub-ul {
+        display: block;
+    }
+
+    .navbar nav #main-ul li {
+        position: static;
+    }
+
+    .navbar nav .sub-ul li {
+        margin-bottom: 0;
+    }
+
+    .navbar nav .sub-ul li a {
+        padding: 0.5rem 1rem;
+    }
+
     /* .navbar nav.active {
         display: flex;
     } */
@@ -2126,6 +2161,41 @@
     #hamburger {
         display: inline-block;
         padding-top: -1rem;
+    }
+
+    .navbar nav #main-ul {
+        margin-top: 0.5rem;
+    }
+
+    .navbar nav .sub-ul {
+        position: static;
+        opacity: 1;
+        display: none;
+        margin-top: 0;
+        padding: 0;
+        background-color: transparent;
+        box-shadow: none;
+        border-radius: 0;
+    }
+
+    .navbar nav .sub-ul.visible {
+        display: block;
+    }
+
+    .navbar nav #main-ul li:hover .sub-ul {
+        display: block;
+    }
+
+    .navbar nav #main-ul li {
+        position: static;
+    }
+
+    .navbar nav .sub-ul li {
+        margin-bottom: 0;
+    }
+
+    .navbar nav .sub-ul li a {
+        padding: 0.5rem 1rem;
     }
 
     /* -----------------top-second-navbar--------------------- */
