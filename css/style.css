@@ -10,6 +10,7 @@ a {
     text-decoration: none;
 }
 
+
 /* -----------------top-navbar--------------------- */
 
 .top-header {
@@ -23,6 +24,7 @@ a {
     justify-content: center;
 
 }
+
 /* #myVideo {
     width: auto;
     height: 50%;
@@ -31,12 +33,12 @@ a {
 
 #myVideo {
     margin-top: 1rem;
-    width: 100%; 
+    width: 100%;
     height: 89vh;
     object-fit: cover;
 }
 
-.short-banner{
+.short-banner {
     width: auto;
     height: 80px;
     display: flex;
@@ -49,7 +51,7 @@ a {
     margin-top: 0;
 }
 
-.short-banner .shortBanner-right-txt{
+.short-banner .shortBanner-right-txt {
     font-family: "Inter", sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -57,7 +59,7 @@ a {
     padding-left: 3rem;
 }
 
-.short-banner .shop-nowBtn{
+.short-banner .shop-nowBtn {
     padding-right: 3rem;
 }
 
@@ -84,12 +86,9 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
-    padding: 0.1rem 2rem;
+    padding: 0.8rem 2rem;
     margin-top: 1rem;
 }
-
-
 
 .navbar .logo img {
     width: 100px;
@@ -116,7 +115,6 @@ a {
     gap: 4rem;
 }
 
-
 .navbar nav a {
     color: #000;
     font-weight: 500;
@@ -129,6 +127,62 @@ a {
 
 .navbar nav a:hover {
     color: #1f4548;
+}
+
+.navbar nav #main-ul{
+    list-style: none;
+}
+
+.navbar nav #main-ul li {
+    position: relative; /* Make the parent li position relative */
+}
+
+/* Add this CSS to style the box type card for sublinks */
+.navbar nav .sub-ul {
+    list-style: none;
+    margin: 0;
+    padding: 1rem;
+    opacity: 0;
+    min-width: 200px; /* Adjust as needed */
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    z-index: 999;
+}
+
+.navbar nav .sub-ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Adjust as needed */
+.navbar nav .sub-ul li a {
+    display: block;
+    padding: 0.5rem;
+    color: #000;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+/* Adjust as needed */
+/* Update CSS to apply hover effect to entire list item */
+.navbar nav .sub-ul li:hover {
+    background-color: #f0f0f0;
+}
+
+/* Remove the hover effect from anchor tags within list items */
+.navbar nav .sub-ul li a:hover {
+    background-color: transparent;
+}
+
+
+/* Adjust as needed */
+.navbar nav .sub-ul.visible {
+    opacity: 1;
+    display: block;
 }
 
 .navbar .cta {
@@ -158,6 +212,9 @@ a {
     padding: 0.5rem;
 }
 
+/*megamenu*/
+/*megamenu*/
+
 /* -----------------top-second-navbar------------ */
 
 /* -----------------hero-section----------------- */
@@ -174,13 +231,13 @@ a {
     column-gap: 392px;
 }
 
-.left-hero-title{
+.left-hero-title {
     margin-top: auto;
     margin-bottom: auto;
     margin-left: auto;
 }
 
-.left-hero-title h3{
+.left-hero-title h3 {
     font-family: "Newsreader", serif;
     font-size: 2.5rem;
     font-weight: 400;
@@ -188,19 +245,19 @@ a {
     align-items: center;
 }
 
-.left-hero-title h4{
+.left-hero-title h4 {
     font-family: "Newsreader", serif;
     font-size: 1rem;
     font-weight: 300;
     color: white;
 }
 
-.right-hero-title img{
+.right-hero-title img {
     width: 300px;
     height: 300px;
 }
 
-.shop-btn{
+.shop-btn {
     width: 100px;
     height: 45px;
     padding: 1rem;
@@ -255,6 +312,8 @@ a {
     width: 392px;
     height: 520px;
     border-bottom-right-radius: 52px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .collection-left .collection-img-right {
@@ -285,7 +344,7 @@ a {
     margin-bottom: 0rem;
 }
 
-.everybody-diamonds{
+.everybody-diamonds {
     width: 300px;
     height: 280px;
     background-color: #1E3231;
@@ -294,7 +353,7 @@ a {
     margin-left: 1.5rem;
 }
 
-.everybody-diamonds .evd-txts h3{
+.everybody-diamonds .evd-txts h3 {
     font-family: "Newsreader", serif;
     font-size: 2rem;
     color: white;
@@ -304,7 +363,7 @@ a {
     padding-left: 1rem;
 }
 
-.everybody-diamonds .evd-txts .evd-txt-h5{
+.everybody-diamonds .evd-txts .evd-txt-h5 {
     font-family: "Inter", serif;
     font-size: 0.9rem;
     color: white;
@@ -312,14 +371,14 @@ a {
     margin-left: 1rem;
 }
 
-.categories-boxes{
+.categories-boxes {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 1rem;
     margin-left: 10rem;
 }
 
-.shp-now{
+.shp-now {
     width: 120px;
     height: 49px;
     padding: 10px;
@@ -329,7 +388,7 @@ a {
     color: white;
 }
 
-.categories-boxes p{
+.categories-boxes p {
     font-family: "Newsreader", serif;
     font-size: 1rem;
     color: black;
@@ -557,18 +616,18 @@ a {
 /* -----------------our-company-section----------------- */
 
 /* -------------------lifetime-section----------------- */
-.lifetime{
+.lifetime {
     width: auto;
     height: 600px;
     background: #1E3231;
     margin-top: 50px;
 }
 
-.lifetime .life-time-title{
+.lifetime .life-time-title {
     padding: 2rem;
 }
 
-.lifetime .life-time-title h3{
+.lifetime .life-time-title h3 {
     font-family: "Newsreader", serif;
     font-size: 2rem;
     font-weight: 400;
@@ -576,37 +635,37 @@ a {
     text-align: center;
 }
 
-.life-guarntees-grid{
+.life-guarntees-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-left: 10rem;
     margin-right: auto;
 }
 
-.source-made{
+.source-made {
     display: flex;
 }
 
-.source-made .source-img img{
+.source-made .source-img img {
     width: 200px;
     height: 200px;
 }
 
-.source-made .source-icon{
+.source-made .source-icon {
     margin-top: 34px;
 }
 
-.source-made .source-icon img{
+.source-made .source-icon img {
     margin-left: 34px;
     width: 30px;
     height: 30px;
 }
 
-.source-title{
+.source-title {
     margin-left: 34px;
 }
 
-.source-title h4{
+.source-title h4 {
     font-family: "Newsreader", sans-serif;
     font-size: 1.5rem;
     color: white;
@@ -616,7 +675,7 @@ a {
 }
 
 
-.source-title p{
+.source-title p {
     font-family: "Inter", sans-serif;
     font-size: 14px;
     font-weight: 200;
@@ -682,26 +741,28 @@ a {
 
 /* -----------------join-our-community-section----------------- */
 /* -----------------temp-section----------------- */
-.temp-section{
+.temp-section {
     width: auto;
     height: 800px;
     background: #F3DECE;
     margin-top: 1rem;
 }
-.temp-section h5{
+
+.temp-section h5 {
     font-family: "Newsreader", serif;
     text-align: center;
     font-size: 2rem;
     font-weight: 400;
     padding-top: 2rem;
 }
-.temp-section .left-hand-img-sec img{
+
+.temp-section .left-hand-img-sec img {
     width: auto;
     height: 400px;
     padding-left: 5rem;
 }
 
-.left-side{
+.left-side {
     display: grid;
     grid-template-columns: 0fr 0fr;
     margin-left: 10%;
@@ -709,7 +770,7 @@ a {
 }
 
 
-.left-hand-img-sec h5{
+.left-hand-img-sec h5 {
     font-family: "Newsreader", sans-serif;
     font-size: 1rem;
     font-weight: 500;
@@ -718,7 +779,7 @@ a {
     margin-top: 0;
 }
 
-.left-hand-img-sec p{
+.left-hand-img-sec p {
     font-family: "Newsreader", sans-serif;
     font-size: 0.6rem;
     font-weight: 400;
@@ -728,23 +789,23 @@ a {
 
 }
 
-.right-hand-img-2{
+.right-hand-img-2 {
     margin-top: 2.9rem;
 }
 
-.right-hand-img-1 img{
+.right-hand-img-1 img {
     width: auto;
     height: 200px;
     padding-left: 5rem;
 }
 
-.right-hand-img-2 img{
+.right-hand-img-2 img {
     width: auto;
     height: 200px;
     padding-left: 5rem;
 }
 
-.right-hand-img-1 h5{
+.right-hand-img-1 h5 {
     font-family: "Newsreader", sans-serif;
     font-size: 1rem;
     font-weight: 500;
@@ -753,7 +814,7 @@ a {
     margin-top: 0;
 }
 
-.right-hand-img-2 h5{
+.right-hand-img-2 h5 {
     font-family: "Newsreader", sans-serif;
     font-size: 1rem;
     font-weight: 500;
@@ -762,7 +823,7 @@ a {
     margin-top: 0;
 }
 
-.right-hand-img-1 p{
+.right-hand-img-1 p {
     font-family: "Newsreader", sans-serif;
     font-size: 0.6rem;
     font-weight: 400;
@@ -772,7 +833,7 @@ a {
 
 }
 
-.right-hand-img-2 p{
+.right-hand-img-2 p {
     font-family: "Newsreader", sans-serif;
     font-size: 0.6rem;
     font-weight: 400;
@@ -781,6 +842,7 @@ a {
     margin-top: 0;
 
 }
+
 /* -----------------temp-section----------------- */
 
 /* -----------------footer-section----------------- */
@@ -877,73 +939,74 @@ a {
 
 
 
-.about-us h3{
+.about-us h3 {
     font-family: "Newsreader", serif;
     font-size: 2rem;
     font-weight: 400;
     text-align: center;
 }
 
-.about-us-imgs{
+.about-us-imgs {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.about-left-img img{
+.about-left-img img {
     width: auto;
     height: 500px;
     margin-left: 8rem;
 }
 
-.about-right-img img{
+.about-right-img img {
     width: auto;
     height: 500px;
     margin-right: 1rem;
 
 }
 
-.about-us .content h3{
+.about-us .content h3 {
     font-family: "Newsreader", serif;
     font-size: 2rem;
     font-weight: 400;
     text-align: center;
 }
 
-.about-us .content p{
+.about-us .content p {
     font-family: "Newsreader", serif;
     font-size: 1rem;
     font-weight: 400;
     text-align: center;
 }
 
-.left-img-with-content,.left-img-with-content-2{
+.left-img-with-content,
+.left-img-with-content-2 {
     display: flex;
     margin-left: 10%;
     margin-top: 3rem;
 }
 
-.left-content-img img{
+.left-content-img img {
     width: 300px;
     height: 300px;
     margin-left: 10rem;
     margin-right: 5rem;
 }
 
-.left-content-img-2 img{
+.left-content-img-2 img {
     width: 450px;
     height: 300px;
     margin-left: 10rem;
     margin-right: 5rem;
 }
 
-.left-img-with-content .right-content h3{
+.left-img-with-content .right-content h3 {
     font-family: "Newsreader", serif;
     font-size: 1.5rem;
     font-weight: 400;
     text-align: left;
 }
 
-.left-img-with-content-2 .right-content-2 h3{
+.left-img-with-content-2 .right-content-2 h3 {
     font-family: "Newsreader", serif;
     font-size: 1.5rem;
     font-weight: 400;
@@ -951,27 +1014,27 @@ a {
 }
 
 
-.left-img-with-content .right-content p{
+.left-img-with-content .right-content p {
     font-family: "Newsreader", serif;
     font-size: 1rem;
     font-weight: 400;
     text-align: left;
 }
 
-.left-img-with-content-2 .right-content-2 p{
+.left-img-with-content-2 .right-content-2 p {
     font-family: "Newsreader", serif;
     font-size: 1rem;
     font-weight: 400;
     text-align: left;
 }
 
-.right-img-with-content{
+.right-img-with-content {
     margin-top: 1rem;
     margin-left: 19.5rem;
 
 }
 
-.right-img-with-content .right-content-2 h3{
+.right-img-with-content .right-content-2 h3 {
     font-family: "Newsreader", serif;
     font-size: 1.5rem;
     font-weight: 400;
@@ -979,7 +1042,7 @@ a {
 }
 
 
-.right-img-with-content .right-content-2 p{
+.right-img-with-content .right-content-2 p {
     font-family: "Newsreader", serif;
     font-size: 1rem;
     font-weight: 400;
@@ -987,17 +1050,21 @@ a {
 }
 
 
-.right-img-with-content{
+.right-img-with-content {
     display: flex;
 }
-.right-content-img img{
+
+.right-content-img img {
     width: 500px;
     height: 400px;
     margin-left: 3rem;
 }
-.quote-hr-1,.quote-hr-2{
+
+.quote-hr-1,
+.quote-hr-2 {
     width: 314.04px;
 }
+
 /*------------------about-us-section----------------*/
 
 
@@ -2012,3 +2079,74 @@ h5 {
 }
 
 /* -----------------CartPageCsss----------------- */
+
+
+/*Contact Page*/
+.map-section iframe{
+    width: 100%;
+    height: 450px;
+}
+
+.cont-us{
+    font-family: "Newsreader", serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.contactForm {
+    width: 549px;
+    height: 400px;
+    border: 1px solid #C67A2F;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactForm .nameLabel {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    margin-top: 55px;
+    margin-left: 38px;
+}
+
+::placeholder {
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    color: #666666;
+    padding: 5px;
+}
+
+
+.contactForm .emailLabel {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-left: 38px;
+}
+
+.contactForm .phoneLabel {
+    font-family: "Inter", sans-serif;
+    margin-top: 10px;
+    margin-left: 38px;
+}
+
+.contactForm .address-1Label,
+.address-2Label,
+.address-3Label {
+    font-family: "Inter", sans-serif;
+    margin-top: 10px;
+    margin-left: 38px;
+}
+
+.contactForm input {
+    margin-top: 6px;
+    margin-left: 40px;
+    padding: 2px;
+    width: 458px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: #FFD6C0;
+    border: 1px solid #FFD6C0;
+}
+
+/*Contact Page*/
