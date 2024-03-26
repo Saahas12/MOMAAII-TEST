@@ -2093,6 +2093,27 @@ h5 {
     text-align: center;
 }
 
+.address-title{
+    font-family: "Newsreader", serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.address-p{
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.address-a{
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+
 .contactForm {
     width: 549px;
     height: 400px;
@@ -2148,5 +2169,6 @@ h5 {
     border-color: #FFD6C0;
     border: 1px solid #FFD6C0;
 }
+
 
 /*Contact Page*/

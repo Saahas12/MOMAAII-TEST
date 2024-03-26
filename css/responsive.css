@@ -124,6 +124,8 @@
 
     .navbar nav #main-ul {
         margin-top: 0.5rem;
+        padding: 0;
+        text-align: center;
     }
 
     .navbar nav .sub-ul {
@@ -135,6 +137,8 @@
         background-color: transparent;
         box-shadow: none;
         border-radius: 0;
+        text-align: center; /* Center text */
+        width: 100%; /* Make the dropdown menu full width */
     }
 
     .navbar nav .sub-ul.visible {
@@ -880,6 +884,7 @@
         width: 100%;
         padding: 10px;
         grid-template-columns: 1fr;
+        padding: 0;
     }
 
     .card img {
