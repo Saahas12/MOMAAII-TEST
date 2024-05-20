@@ -1019,6 +1019,7 @@ a {
     font-size: 1rem;
     font-weight: 400;
     text-align: left;
+    line-height: 1.5rem;
 }
 
 .left-img-with-content-2 .right-content-2 p {
@@ -1026,6 +1027,8 @@ a {
     font-size: 1rem;
     font-weight: 400;
     text-align: left;
+    line-height: 1.5rem;
+
 }
 
 .right-img-with-content {
@@ -1047,6 +1050,8 @@ a {
     font-size: 1rem;
     font-weight: 400;
     text-align: left;
+    line-height: 1.5rem;
+
 }
 
 
