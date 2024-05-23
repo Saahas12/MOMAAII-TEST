@@ -1785,6 +1785,7 @@
         text-align: center;
         padding-left: 1rem;
         padding-right: 1rem;
+        line-height: 1.5rem;
     }
     
     .left-img-with-content,.left-img-with-content-2{
@@ -1873,6 +1874,10 @@
     .right-img-with-content{
         display: flex;
         margin-left: 0;
+    }
+
+    .right-content-img{
+        margin: 0;
     }
 
     .right-content-img img{

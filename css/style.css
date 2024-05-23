@@ -1059,6 +1059,10 @@ a {
     display: flex;
 }
 
+.right-content-img{
+    margin-right: 5rem;
+}
+
 .right-content-img img {
     width: 500px;
     height: 400px;
