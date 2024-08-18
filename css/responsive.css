@@ -2090,7 +2090,40 @@
     }
 
     /* -----------------footer-section----------------- */
+    .hero .Cut {
+        font-family: "Newsreader", serif;
+        font-size: 1.3rem;
+        margin-left: 1rem;
+    }
 
+    .hero .Cut h1{
+        font-weight: 500;
+    }
+    
+    .hero p {
+        font-family: "Newsreader", serif;
+        font-size: 1.3rem;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        font-weight: 500;
+    }
+
+    .about-images{
+        flex-direction: column;
+    }
+
+    .about-images img{
+        margin: 1rem;
+    }
+
+    .time .number{
+        font-size: 3rem;
+    }
+
+    .about h2{
+        font-size: 2rem;
+    }
 
 }
 

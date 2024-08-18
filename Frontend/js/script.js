@@ -33,3 +33,6 @@ dropdownIcon1.addEventListener('click', function() {
     // Toggle visibility of the submenu
     submenu1.classList.toggle('visible');
 });
+
+
+
