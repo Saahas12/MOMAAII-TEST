@@ -2294,5 +2294,94 @@ h5 {
     font-size: 12px;
     font-family: "Inter", serif;
 }
+/*footer section*/
+.footer1 {
+    width: auto;
+    height: 350px;
+    background: #1E3231;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
 
+.footer1 h3 {
+    font-family: "Inter", sans-serif;
+    color: #C5AD9C;
+    font-size: 0.6rem;
+    margin-left: 30px;
+}
+
+.categories,
+.contact-us,
+.Payments,
+.legalEssentials,
+.follow-us {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.categories h4 {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    color: #C67A2F;
+}
+
+.categories p {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    color: #FFD6C0;
+}
+
+.contact-us h4 {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    color: #C67A2F;
+}
+
+.contact-us p {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    color: #FFD6C0;
+}
+
+.Payments h4 {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    color: #C67A2F;
+}
+
+.Payments p {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    color: #FFD6C0;
+}
+
+.legalEssentials h4 {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    color: #C67A2F;
+}
+
+.legalEssentials p {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    color: #FFD6C0;
+}
+
+.follow-us h4 {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    color: #C67A2F;
+}
+
+.follow-us p {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    color: #FFD6C0;
+}
+
+/* -----------------footer-section----------------- */
+/*footer section*/
 /*Comming Soon Page*/
