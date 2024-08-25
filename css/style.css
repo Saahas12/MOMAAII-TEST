@@ -2297,13 +2297,20 @@ h5 {
 /*footer section*/
 .footer1 {
     width: auto;
-    height: 350px;
+    height: 250px;
     background: #1E3231;
     margin-top: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-content: center;
+    column-gap: 17rem;
+}
+
+.click-here{
+    text-decoration: none;
+    color: #000;
+
 }
 
 .footer1 h3 {
