@@ -2198,16 +2198,25 @@ h5 {
     justify-content: center;
     flex-direction: column;
     color: white;
+    position: relative; /* Allows positioning of the logo */
 }
+
+.logo-1 {
+    position: absolute;
+    top: 20px;  /* Adjust as needed for spacing from the top */
+    left: 20px; /* Adjust as needed for spacing from the left */
+}
+
+
 
 .hero .Cut {
     font-family: "Newsreader", serif;
     font-size: 1.6rem;
-    margin-left: 1rem;
+    margin-left: 1rem;  
 
 }
 
-.hero .Cut h1{
+.hero .Cut h1 {
     font-weight: 100;
 }
 
@@ -2253,11 +2262,29 @@ h5 {
     border-radius: 10px;
 }
 
-.toknowmore{
+.toknowmore {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.toknowmore img {
+    cursor: pointer;
+}
+
+.toknowmore-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about-desc {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+    text-align: center;
 }
 
 .time-content {
@@ -2270,7 +2297,7 @@ h5 {
     padding: 2rem 2.5rem;
     border-radius: 0.5rem;
     background: rgba(250, 250, 250, 0.2);
-  }
+}
 
 .time-content .time {
     display: flex;
@@ -2294,6 +2321,7 @@ h5 {
     font-size: 12px;
     font-family: "Inter", serif;
 }
+
 /*footer section*/
 .footer1 {
     width: auto;
@@ -2307,11 +2335,6 @@ h5 {
     column-gap: 17rem;
 }
 
-.click-here{
-    text-decoration: none;
-    color: #000;
-
-}
 
 .footer1 h3 {
     font-family: "Inter", sans-serif;

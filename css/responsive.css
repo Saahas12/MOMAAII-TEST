@@ -2116,7 +2116,7 @@
     }
 
     .hero .Cut h1{
-        font-weight: 500;
+        font-weight: 400;
     }
     
     .hero p {
@@ -2143,6 +2143,14 @@
     .about h2{
         font-size: 2rem;
     }
+
+    /*Comming Soon*/
+    .toknowmore #about-desc{
+        text-align: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    /*Comming Soon*/
 
 }
 
