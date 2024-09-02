@@ -2322,6 +2322,13 @@ h5 {
     font-family: "Inter", serif;
 }
 
+#images-text{
+    text-align: center;
+    font-size: larger;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
 /*footer section*/
 .footer1 {
     width: auto;
