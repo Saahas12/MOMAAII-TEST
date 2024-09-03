@@ -2150,6 +2150,13 @@
         margin-left: 1rem;
         margin-right: 1rem;
     }
+    .time-content{
+        column-gap: 30px;
+    }
+
+    #great-things h2{
+        font-size: 2rem
+    }
     /*Comming Soon*/
 
 }
