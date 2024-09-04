@@ -2408,6 +2408,9 @@ h5 {
 #facebook-icon img{
     cursor: pointer;
 }
+#facebook-icon-1{
+    display: none;
+}
 /*footer section*/
 .footer1 {
     width: auto;
