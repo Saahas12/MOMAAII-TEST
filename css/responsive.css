@@ -2157,6 +2157,44 @@
     #great-things h2{
         font-size: 2rem
     }
+
+    .about-cs{
+        flex-direction: column;
+    }
+    
+    .precision h2{
+        font-size: 1.5rem;
+    }
+
+    .cs-img{
+        flex-direction: column;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .cs-img .cs-img-1{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    
+    .cs-img .cs-img-2{
+        width: 100%;
+    }
+    #facebook-icon-1{
+        display: flex;
+        gap: 1rem;
+        padding: 1rem 1.5rem;
+        border-radius: 0.5rem;
+        background: #EEEDEDBF;
+        align-items: center;
+        justify-content: center;
+    }
+    #facebook-icon-1 img{
+        cursor: pointer;
+    }
+    #facebook-icon{
+        display: none;
+    }
     /*Comming Soon*/
 
 }

@@ -2249,10 +2249,34 @@ h5 {
     font-weight: 350;
 }
 
+.about-cs{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.about-cs h2{
+    font-family: "Newsreader", serif;
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 350;
+}
+
 .about-images {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    column-gap: 2rem;
+}
+
+.about-images-1 {
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    flex-direction: column;
     margin-left: 1rem;
     margin-right: 1rem;
     column-gap: 2rem;
@@ -2274,10 +2298,22 @@ h5 {
     cursor: pointer;
 }
 
-.toknowmore-1{
+.toknowmore-1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    background: url('https://images.unsplash.com/photo-1723802205477-33f3f4f9135b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.toknowmore-1 img {
+    cursor: pointer;
 }
 
 #about-desc {
@@ -2290,7 +2326,7 @@ h5 {
 
 .time-content {
     display: flex;
-    column-gap: 5rem;
+    column-gap: 1.5rem;
     align-items: center;
     justify-content: space-between;
     margin: 2rem;
@@ -2302,6 +2338,11 @@ h5 {
 
 #great-things h2{
     font-size: 3rem;
+}
+
+#cs-text h2{
+    font-size: 3rem;
+    color: white;
 }
 
 .time-content .time {
@@ -2334,6 +2375,39 @@ h5 {
     margin-right: 1rem;
 }
 
+.cs-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2rem;
+}
+
+.cs-img .cs-img-1{
+    width: 300px;
+    height: 400px;
+    margin-top: 2rem;
+}
+
+.cs-img .cs-img-2{
+    width: 300px;
+    height: 400px;
+    margin-bottom: 2rem;
+}
+
+.precision p{
+    font-family: "Inter", serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+#facebook-icon{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+#facebook-icon img{
+    cursor: pointer;
+}
 /*footer section*/
 .footer1 {
     width: auto;
