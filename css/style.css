@@ -15,6 +15,7 @@ a {
 /* -----------------top-navbar--------------------- */
 
 .top-header {
+    display: none;
     width: auto;
     height: auto;
     background: #1E3231;
@@ -997,7 +998,7 @@ a {
 }
 
 .left-content-img-2 img {
-    width: 450px;
+    width: 440px;
     height: 300px;
     margin-left: 10rem;
     margin-right: 5rem;
