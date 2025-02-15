@@ -2128,6 +2128,8 @@
     }
 
     .hero .Cut h1 {
+        font-size: 35px;
+        margin-top: 0;
         font-weight: 400;
     }
 
@@ -2171,6 +2173,11 @@
         font-size: 2rem
     }
 
+    #cs-text h2{
+        font-size: 2rem;
+        color: #1E3231;
+    }
+
     .about-cs {
         flex-direction: column;
     }
@@ -2211,6 +2218,38 @@
     #facebook-icon {
         display: none;
     }
+
+    .hero .logo-1{
+        left: auto !important;
+    }
+
+    .hero .logo-1 img{
+        width: 100px!important;
+        height: 100px!important;
+    }
+
+    .hero button{
+        bottom: auto;
+        right: auto;
+    }
+
+    .hero{
+        align-items: start;
+    }
+
+    /*comming soon footer*/
+
+    .footer-flex-sec{
+        grid-template-columns: 1fr;
+    }
+    .footer-cs-logo-1{
+        display: block;
+        text-align: center;
+    }
+    .footer-social{
+        margin: auto;
+    }
+    /*comming soon footer*/
 
     /*Comming Soon*/
 
@@ -4035,7 +4074,7 @@
         text-align: left;
     }
 
-    .right-content-2{
+    .right-content-2 {
         padding: 1rem;
     }
 

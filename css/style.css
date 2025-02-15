@@ -2196,7 +2196,7 @@ h5 {
 /*Contact Page*/
 
 /*Comming Soon Page*/
-.hero {
+/*.hero {
     background-image: url('https://images.unsplash.com/photo-1550368566-f9cc32d7392d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-size: cover;
     background-position: center;
@@ -2207,7 +2207,31 @@ h5 {
     justify-content: center;
     flex-direction: column;
     color: white;
-    position: relative; /* Allows positioning of the logo */
+    position: relative;  Allows positioning of the logo 
+}*/
+
+.hero{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+}
+
+#cs-video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the full section without stretching */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.text-container{
+    z-index: 2;
 }
 
 .logo-1 {
@@ -2222,6 +2246,7 @@ h5 {
     font-family: "Newsreader", serif;
     font-size: 1.6rem;
     margin-left: 1rem;  
+    margin-right: 1rem;  
 
 }
 
@@ -2248,6 +2273,10 @@ h5 {
     width: fit-content;
     margin-left: 1rem;
     font-family: "Inter", serif;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 40px;
+    right: 45px;
 
 }
 
@@ -2302,12 +2331,12 @@ h5 {
     justify-content: center;
     flex-direction: column;
 }
-
+/* 
 .toknowmore img {
     cursor: pointer;
-}
+}*/
 
-.toknowmore-1 {
+/* .toknowmore-1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2323,7 +2352,7 @@ h5 {
 
 .toknowmore-1 img {
     cursor: pointer;
-}
+}  */
 
 #about-desc {
     max-height: 0;
@@ -2349,9 +2378,25 @@ h5 {
     font-size: 3rem;
 }
 
+.about-us-content{
+    margin-left: 20px;
+}
+
+.about-us-content h3{
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #0dbdad;
+}
+.about-us-content p{
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #0dbdad;
+}
+
 #cs-text h2{
     font-size: 3rem;
-    color: white;
+    margin-bottom: 0px;
+    color: #1E3231;
 }
 
 .time-content .time {
@@ -2364,14 +2409,14 @@ h5 {
     font-weight: 500;
     font-size: 80px;
     line-height: 1;
-    color: #1f4548;
+    color: #0dbdad;
     font-family: "NewsReader", serif;
 
 }
 
 .time .text {
     text-transform: capitalize;
-    color: #1f4548;
+    color: #0dbdad;
     font-weight: 600;
     font-size: 12px;
     font-family: "Inter", serif;
@@ -2420,6 +2465,49 @@ h5 {
 #facebook-icon-1{
     display: none;
 }
+
+/*comming soon footer section*/
+.cs-footer{
+    width: 100%;
+    height: 100%;
+    background: #1E3231;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+}
+
+.footer-flex-sec{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding: 34px;
+}
+
+.footer-cs-logo-1{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 3rem;
+}
+
+/* .cs-contact-1{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+} */
+
+.cs-p{
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+}
+
+.footer-social{
+    margin-left: auto;
+}
+
+/*comming soon footer section*/
+
 /*footer section*/
 .footer1 {
     width: auto;
