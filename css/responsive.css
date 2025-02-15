@@ -4235,6 +4235,23 @@
 
     /*------------------RingProductPageCss---------------*/
 
+    /*coming soon footer*/
+    .cs-footer{
+        height: fit-content;
+    }
+
+    .footer-flex-sec{
+        grid-template-columns: 1fr;
+    }
+    .footer-cs-logo-1{
+        display: block;
+        text-align: center;
+    }
+    .footer-social{
+        margin: auto;
+    }
+    /*coming soon footer*/
+
 }
 
 
@@ -5860,5 +5877,24 @@
     }
 
     /*------------------about-us-section----------------*/
+
+    /*coming soon footer */
+
+    .cs-footer{
+        margin-top: 6.5rem;
+        height: fit-content;
+    }
+
+    .footer-flex-sec{
+        grid-template-columns: 1fr;
+    }
+    .footer-cs-logo-1{
+        display: block;
+        text-align: center;
+    }
+    .footer-social{
+        margin: auto;
+    }
+    /*coming soon footer */
 
 }
